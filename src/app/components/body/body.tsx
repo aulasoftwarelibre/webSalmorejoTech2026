@@ -19,7 +19,7 @@ export default function body() {
           />
         </div>
         <h1 className={styles.text}>
-          LA CITA DE LA TECNOLOGÍA CÓRDOBESA REGRESA CON UNA ENERGÍA IMPARABLE
+          LA CITA DE LA TECNOLOGÍA CORDOBESA REGRESA CON UNA ENERGÍA IMPARABLE
         </h1>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdNOP1mYrdZi2WQhaiZ-nMbRqYowmwW1T4RYTBlrnShJ-ukxA/viewform"

@@ -62,9 +62,9 @@ export const metadata: Metadata = {
 
   // --- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) ---
   openGraph: {
-    title: "Landing Salmorejo Tech 2026",
+    title: "Salmorejo Tech 2026 | El Evento Tecnológico de Córdoba",
     description:
-      "Infórmate sobre el evento tecnológico cordobés y cómo ser ponente.",
+      "Únete a la mayor cita tecnológica de Córdoba. Networking, ponencias de primer nivel y mucho salmorejo. ¡Call for Papers disponible!",
     url: "/2026",
     siteName: "Salmorejo Tech",
     locale: "es_ES",
@@ -82,9 +82,9 @@ export const metadata: Metadata = {
   // --- Twitter Card ---
   twitter: {
     card: "summary_large_image",
-    title: "Landing Salmorejo Tech 2026",
+    title: "Salmorejo Tech 2026 | El Evento Tecnológico de Córdoba",
     description:
-      "Infórmate sobre el evento tecnológico cordobés y cómo ser ponente.",
+      "Únete a la mayor cita tecnológica de Córdoba. Networking, ponencias de primer nivel y mucho salmorejo. ¡Call for Papers disponible!",
     site: "@AulaSL",
     creator: "@AulaSL",
     images: [`${SITE_BASE_PATH}/opengraph-image.jpg`],
