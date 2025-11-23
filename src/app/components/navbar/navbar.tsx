@@ -94,7 +94,7 @@ export default function Navbar() {
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <Link href="https://salmorejo.tech/2025" className={styles.link}>
-            Otras Ediciones
+            Edición Anterior
           </Link>
         </li>
 
