@@ -55,10 +55,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_BASE_PATH,
   },
-  icons: {
-    icon: `${SITE_BASE_PATH}/icon.png`,
-    apple: `${SITE_BASE_PATH}/icon.png`,
-  },
 
   // --- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) ---
   openGraph: {
