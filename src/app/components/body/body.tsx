@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./body.module.css";
 import logoSalmorejo from "../../assets/logoSalmorejo.png";
-import { style } from "framer-motion/client";
 
 const IMAGE_WIDTH = 1508;
 const IMAGE_HEIGHT = 241;
@@ -24,7 +23,7 @@ export default function body() {
         </h1>
         <h1 className={styles.text2}>FECHA POR ANUNCIAR</h1>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSczW34Jwwqgsktxg9FXm--X-Wva69rlmck18GivQlK0HoK3Hg/viewform?usp=dialog"
+          href="https://mailchi.mp/4de2bca2a936/notificaciones-sobre-el-salmorejotech-2026"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.notifybutton}
