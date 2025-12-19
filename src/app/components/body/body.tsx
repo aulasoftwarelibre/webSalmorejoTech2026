@@ -21,15 +21,7 @@ export default function body() {
         <h1 className={styles.text}>
           LA CITA DE LA TECNOLOGÍA CORDOBESA REGRESA CON UNA ENERGÍA IMPARABLE
         </h1>
-        <h1 className={styles.text2}>FECHA POR ANUNCIAR</h1>
-        <a
-          href="https://mailchi.mp/4de2bca2a936/notificaciones-sobre-el-salmorejotech-2026"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.notifybutton}
-        >
-          NOTIFÍCAME
-        </a>
+        <h1 className={styles.text2}>8 DE MAYO DE 2026</h1>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdNOP1mYrdZi2WQhaiZ-nMbRqYowmwW1T4RYTBlrnShJ-ukxA/viewform"
           target="_blank"
