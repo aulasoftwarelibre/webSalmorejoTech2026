@@ -87,6 +87,11 @@ export default function Footer({ isVisible }: FooterProps) {
               </div>
             ))}
           </div>
+
+          <h1 className={styles.notifyText}>
+            ¿Quieres que te notifiquemos sobre novedades sobre el salmorejoTech 2026?, ¡Pulsa aqui!
+          </h1>
+
         </div>
 
         <div className={styles.textContainer}>
@@ -104,6 +109,14 @@ export default function Footer({ isVisible }: FooterProps) {
             <br />
             (Campus de Rabanales)
           </p>
+                  <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNOP1mYrdZi2WQhaiZ-nMbRqYowmwW1T4RYTBlrnShJ-ukxA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.notifybutton}
+        >
+          NOTIFÍCAME
+        </a>
         </div>
       </div>
       <div className={styles.merch}>
