@@ -1,0 +1,49 @@
+.background {
+  margin: -1px;
+  padding: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  flex-grow: 1;
+  max-width: 1500px;
+  margin-bottom: 15vw;
+}
+
+/* For medium screens */
+@media (max-width: 1024px) {
+  .container {
+    margin-bottom: 40vw; /* Adjust margin for medium screens */
+  }
+}
+
+/* For very small screens */
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 50vw; /* Adjust margin for extra small screens */
+  }
+}
+
+.sponsor {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sponsor:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.schedule {
+  color: #8a153c;
+  text-align: center;
+  font-weight: bold;
+}
