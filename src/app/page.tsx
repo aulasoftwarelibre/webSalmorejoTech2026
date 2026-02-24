@@ -34,6 +34,17 @@ export default function Home() {
       >
         <Navbar />
         <Body />
+        <Body />
+
+        <Body />
+        <Body />
+        <Body />
+        <Body />
+        <Body />
+        <Body />
+        <Body />
+        <Body />
+
         <Footer isVisible={isAnimationComplete} />
       </motion.div>
     </div>
