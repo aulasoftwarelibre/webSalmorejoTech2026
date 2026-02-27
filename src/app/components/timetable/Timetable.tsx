@@ -723,7 +723,7 @@ const Schedule: React.FC = () => {
           </div>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitleT}>Cómo convertirse en el perfil que todos quieren</h3>
+            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
             <p className={styles.scheduleAuthor}>Gabriela Alba</p>
           </div>
         </div>
@@ -736,6 +736,96 @@ const Schedule: React.FC = () => {
         </div>
         <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>DESAYUNO</h3>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>9:30</p>
+          <p className={styles.timeText}>10:20</p>
+        </div>
+        <div className={styles.tracksContainer}>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
+            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
+            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+          </div>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
+            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
+            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>11:45</p>
+          <p className={styles.timeText}>12:25</p>
+        </div>
+        <div className={styles.tracksContainer}>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
+            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
+            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+          </div>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
+            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
+            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>12:30</p>
+          <p className={styles.timeText}>13:05</p>
+        </div>
+        <div className={styles.fullWidthEvent}>
+          <h3 className={styles.scheduleTitleTimetable}>TAPA</h3>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>13:10</p>
+          <p className={styles.timeText}>13:50</p>
+        </div>
+        <div className={styles.tracksContainer}>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
+            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
+            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+          </div>
+          <div className={styles.trackEvent}>
+            <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
+            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
+            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>14:40</p>
+          <p className={styles.timeText}>15:50</p>
+        </div>
+        <div className={styles.fullWidthEvent}>
+          <h3 className={styles.scheduleTitleTimetable}>COMIDA</h3>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>9:30</p>
+          <p className={styles.timeText}>10:20</p>
+        </div>
+        <div className={styles.tracksContainer}>
+          <div className={styles.trackEvent}>
+            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
+            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+          </div>
         </div>
       </div>
 
