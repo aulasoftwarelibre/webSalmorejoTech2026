@@ -718,13 +718,13 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
-            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
-            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
         </div>
       </div>
@@ -747,13 +747,13 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
-            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
-            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
         </div>
       </div>
@@ -766,13 +766,13 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
-            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
-            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
         </div>
       </div>
@@ -795,13 +795,13 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
-            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
           <div className={styles.trackEvent}>
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>Cómo convertirse en el perfil que todos quieren</h3>
-            <p className={styles.scheduleAuthor}>Gabriela Alba</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
         </div>
       </div>
@@ -823,8 +823,8 @@ const Schedule: React.FC = () => {
         </div>
         <div className={styles.tracksContainer}>
           <div className={styles.trackEvent}>
-            <h3 className={styles.scheduleTitle}>El impacto de la inteligencia artificial</h3>
-            <p className={styles.scheduleAuthor}>Pedro Picapiedra</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}>TBA</p>
           </div>
         </div>
       </div>
@@ -837,7 +837,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>15:50</p>
         </div>
         <div className={`${styles.fullWidthEvent} ${styles.workshopEvent}`}>
-          <h3 className={styles.scheduleTitle}>openSUSE Linux Install Party</h3>
+          <h3 className={styles.scheduleTitle}>TBA</h3>
         </div>
       </div>
 
