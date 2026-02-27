@@ -5,14 +5,16 @@
 
 .container {
   margin: 0 auto;
+  border-radius: 30px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
-  gap: 5rem;
+  gap: 1.5rem;
   flex-grow: 1;
   max-width: 1500px;
   margin-bottom: 15vw;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 /* For medium screens */
@@ -43,7 +45,14 @@
 }
 
 .schedule {
-  color: #8a153c;
+  color: #8b1b4c;
+  max-width: fit-content; 
+  margin: 0 auto;       
   text-align: center;
   font-weight: bold;
+  font-size: xx-large;
+  display: inline-block; 
+  padding: 1rem 12rem;   
+  border-radius: 30px;  
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
