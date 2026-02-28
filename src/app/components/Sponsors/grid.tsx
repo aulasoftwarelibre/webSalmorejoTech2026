@@ -19,9 +19,9 @@ export const SponsorsGrid = ({ sponsors }: SponsorsGridProps) => {
 
   return (
     <Fragment>
-      <h1 className={`${styles.schedule} bg-white/50 backdrop-blur-xs border border-neutral-400/20 pt-10`}>PATROCINADORES</h1>
+      <h1 className={`${styles.schedule} bg-white/30 bg-opacity-30 backdrop-blur-xs border border-neutral-400/20 text-3xl px-6 sm:px-32 md:px-46 sm:text-4xl md:text-5xl py-5`}>PATROCINADORES</h1>
       <div className={styles.background}>
-        <div className={`${styles.container} bg-white/50 backdrop-blur-md border border-neutral-400/20`}>
+        <div className={`${styles.container} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
           {orderedSponsors.map((sponsor) => {
             return (
               <Sponsor

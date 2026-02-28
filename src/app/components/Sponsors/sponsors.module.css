@@ -22,6 +22,7 @@
   .container {
     margin-bottom: 40vw; /* Adjust margin for medium screens */
   }
+  
 }
 
 /* For very small screens */
@@ -47,12 +48,12 @@
 .schedule {
   color: #8b1b4c;
   max-width: fit-content; 
-  margin: 0 auto;       
+  margin: 0 auto; 
+  margin-top: 4rem;  
+  margin-bottom: 4rem;    
   text-align: center;
   font-weight: bold;
-  font-size: xx-large;
   display: inline-block; 
-  padding: 1rem 12rem;   
   border-radius: 30px;  
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
