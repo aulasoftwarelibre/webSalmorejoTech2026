@@ -7,9 +7,11 @@
   margin: 0 auto;
   border-radius: 30px;
   display: flex;
+  padding: 2rem 1rem;
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
+  align-items: center;
   gap: 1.5rem;
   flex-grow: 1;
   max-width: 1500px;
@@ -63,6 +65,7 @@
 .sponsor {
   width: 10rem;
   height: 10rem;
+  padding: 1rem 0;
   display: block;
   background-size: contain;
   background-position: center;
