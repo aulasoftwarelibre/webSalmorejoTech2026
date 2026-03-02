@@ -1,4 +1,5 @@
 "use client";
+import FindUs from "@/app/components/findUs/findUs";
 import Navbar from "@/app/components/navbar/navbar";
 import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
@@ -36,10 +37,13 @@ export default function Home() {
         }}
         style={{ position: "relative", zIndex: 10 }}
       >
+
         <Navbar />
         <Body />
+        <FindUs/>
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />
+
       </motion.div>
     </div>
   );
