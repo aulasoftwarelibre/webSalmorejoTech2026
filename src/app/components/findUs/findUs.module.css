@@ -8,27 +8,32 @@
   border: 2px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(40px);
   box-shadow: 0px 20px 40px 0px #00000040;
-  width: 700;
-  height: 130;
+  width: 60%;
+  max-width: 700px;
+  height: 130px;
+  min-height: 130px; 
   opacity: 1;
-  margin-top: 200;
+  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   border-width: 1px; 
+  margin: 150px auto 0 auto; 
+  padding: 25px 20px;
 }
 
 .findUs{
 
-width: 442;
-height: 70;
+width: 442px;
+height: 70px;
 top: 1163px;
 left: 651px;
 opacity: 1;
 font-family: Oswald;
+font-size: clamp(3rem, 3vm, 5 rem);
 font-weight: 600;
 font-style: SemiBold;
-font-size: 70;
+font-size: 70px;
 line-height: 100%;
 letter-spacing: 0%;
 color: #8B1B4C;
@@ -46,19 +51,54 @@ color: #8B1B4C;
   border: 2px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(40px);
   box-shadow: 0px 20px 40px 0px #00000040;
-  width: 900;
-  height: 550;
+  width: 90%;
+  max-width: 900;
+  height: auto;
+  min-height: 130px;
   opacity: 1;
   margin-top: 100;
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   border-width: 1px;
+  margin: 150px auto 0 auto; 
+  padding: 25px 20px;
 }
 
 .mapImage{
-  width: 850;
-  height: 510;
+  width: 100%;
+  max-width: 850;
+  height: auto;
+  min-height:  130px;
   border-radius: 40px;
-  border-width: 1px;
+  border-width: 20px;
+}
+
+@media (max-width: 1000px){
+  .findUs{
+    font-size: clamp(3rem, 7vw, 8rem);
+    margin: 5px auto 0 auto;
+    text-align:center;
+  }
+}
+
+@media (max-width: 800px){
+  .findUs{
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin: 35px auto 0 auto;
+  }
+}
+
+@media (max-width: 600px){
+  .findUs{
+    font-size: clamp(1.5rem, 6vw, 3rem);
+    margin: 40px auto 0 auto;
+  }
+}
+
+@media (max-width: 500px){
+  .findUs{
+    font-size: clamp(1.25rem, 7vw, 2.5rem);
+    margin: 40px auto 0 auto;
+  }
 }
