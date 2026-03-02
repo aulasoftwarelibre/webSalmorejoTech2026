@@ -1,0 +1,90 @@
+.background {
+  margin: -1px;
+  padding: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  border-radius: 30px;
+  display: flex;
+  padding: 2rem 1rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-grow: 1;
+  max-width: 1350px;
+  margin-bottom: 5vw;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.schedule {
+  color: #8b1b4c;
+  max-width: fit-content; 
+  width: 60%;
+  font-size: 2.5rem;
+  padding: 1rem 10rem;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-block; 
+  border-radius: 30px;  
+  margin-bottom: 2vw;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(133, 133, 178, 0.1) 0px 16px 56px;
+}
+
+/* For medium screens */
+@media (max-width: 1024px) {
+  .container {
+    margin-bottom: 40vw; /* Adjust margin for medium screens */
+  }
+
+  .schedule {
+    width: 50%;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+  }
+}
+
+/* For very small screens */
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 50vw; /* Adjust margin for extra small screens */
+  }
+
+  .schedule {
+    width: 70%;
+    font-size: 1.7rem; 
+    padding: 1rem 2rem;
+  }
+}
+
+/* For very very small screens */
+@media (max-width: 390px) {
+  .container {
+    margin-bottom: 50vw; /* Adjust margin for extra small screens */
+  }
+
+  .schedule {
+    width: 60%;
+    font-size: 1.3rem; 
+    padding: 1rem 2rem;
+  }
+}
+
+.sponsor {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sponsor:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}

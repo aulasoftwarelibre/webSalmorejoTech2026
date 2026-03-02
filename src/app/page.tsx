@@ -4,6 +4,10 @@ import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { SponsorProps } from '../app/components/Sponsors'
+import sponsors from '@/data/sponsors.json'
+import { SponsorsGrid } from '@/app/components/Sponsors/grid'
+
 
 export default function Home() {
   const [isAnimationComplete, setIsAnimationComplete] = useState(false);
@@ -34,17 +38,7 @@ export default function Home() {
       >
         <Navbar />
         <Body />
-        <Body />
-
-        <Body />
-        <Body />
-        <Body />
-        <Body />
-        <Body />
-        <Body />
-        <Body />
-        <Body />
-
+        <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />
       </motion.div>
     </div>

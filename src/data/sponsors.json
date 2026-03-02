@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sticker Mule",
+    "type": "CHERRY",
+    "imageUrl": "/2026/sponsors/stickermule.png",
+    "href": "https://www.stickermule.com/es/pegatinas-personalizadas"
+  },
+  {
+    "name": "Universidad de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/uco.png",
+    "href": "http://www.uco.es/"
+  },
+  {
+    "name": "Escuela Politécnica Superior de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/epsc.svg",
+    "href": "https://www.uco.es/eps/es/"
+  },
+  {
+    "name": "Consejo Social UCO",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/consejo-social.png",
+    "href": "http://www.uco.es/organizacion/consejosocial/index.php/es/"
+  },
+  {
+    "name": "Ayuntamiento de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/ayto_cordoba.png",
+    "href": "http://www.uco.es/"
+  },
+    {
+      "name": "Mercado Victoria",
+      "type": "PERA",
+      "imageUrl": "/2026/sponsors/mv.png",
+      "href": "https://www.mercadovictoria.com/"
+    }
+]
