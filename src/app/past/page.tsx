@@ -33,7 +33,6 @@ export default function Home() {
         style={{ position: "relative", zIndex: 10 }}
       >
         <Navbar />
-        <Body/>
         <Past/>
         <Footer isVisible={isAnimationComplete} />
       </motion.div>

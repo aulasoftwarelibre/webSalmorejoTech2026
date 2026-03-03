@@ -9,11 +9,13 @@ export default function FindUs() {
         <p className={styles.findUs}>ENCUÉNTRANOS</p>
       </div>
         <div className={styles.mapContainer}>
-          <Image 
-            src={map}
-            alt="maps location"
-            className={styles.mapImage}
-          />
+          <a href="https://maps.app.goo.gl/bqrxVc7ceJjnZyVf9">
+            <Image 
+              src={map}
+              alt="maps location"
+              className={styles.mapImage}
+            />
+          </a>
       </div>
     </div>
   );
