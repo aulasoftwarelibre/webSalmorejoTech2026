@@ -3,6 +3,8 @@ import FindUs from "@/app/components/findUs/findUs";
 import Navbar from "@/app/components/navbar/navbar";
 import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
+import Timetable from "@/app/components/Timetable/Timetable";
+
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { SponsorProps } from '../app/components/Sponsors'
@@ -40,6 +42,7 @@ export default function Home() {
 
         <Navbar />
         <Body />
+        <Timetable />
         <FindUs/>
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />

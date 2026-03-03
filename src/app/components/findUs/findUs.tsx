@@ -6,7 +6,7 @@ export default function FindUs() {
   return (
     <div className={styles.container}>
       <div className={styles.findusContainer}>
-        <p className={styles.findUs}>ENCUENTRANOS</p>
+        <p className={styles.findUs}>ENCUÉNTRANOS</p>
       </div>
         <div className={styles.mapContainer}>
           <Image 

@@ -21,22 +21,19 @@
 }
 
 .findUs{
-
-width: 442px;
-height: 70px;
-top: 1163px;
-left: 651px;
-opacity: 1;
-font-family: Oswald;
-font-size: clamp(3rem, 3vm, 5 rem);
-font-weight: 600;
-font-style: SemiBold;
-font-size: 70px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #8B1B4C;
-
-
+  width: 442px;
+  height: 70px;
+  top: 1163px;
+  left: 651px;
+  opacity: 1;
+  font-family: Oswald;
+  font-size: clamp(3rem, 3vm, 5 rem);
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8B1B4C;
 }
 
 .mapContainer{
@@ -54,12 +51,9 @@ color: #8B1B4C;
   height: auto;
   min-height: 130px;
   opacity: 1;
-  margin-top: 100;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 40px;
   border-width: 1px;
-  margin: 150px auto 0 auto; 
+  margin: 80px auto 0 auto;
   padding: 25px 20px;
 }
 
@@ -78,6 +72,10 @@ color: #8B1B4C;
     margin: 5px auto 0 auto;
     text-align:center;
   }
+
+  .mapContainer{
+    margin: 40px auto 0 auto;
+  }
 }
 
 @media (max-width: 800px){
@@ -85,6 +83,7 @@ color: #8B1B4C;
     font-size: clamp(2rem, 7vw, 3rem);
     margin: 25px auto 0 auto;
   }
+
 }
 
 @media (max-width: 600px){
@@ -92,11 +91,16 @@ color: #8B1B4C;
     font-size: clamp(1.5rem, 7vw, 3rem);
     margin: 30px auto 0 auto;
   }
+
+
 }
 
 @media (max-width: 500px){
   .findUs{
     font-size: clamp(1.25rem, 8vw, 2.5rem);
     margin: 40px auto 0 auto;
+  }
+  .mapContainer{
+    margin: 20px auto 0 auto;
   }
 }
