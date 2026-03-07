@@ -1,7 +1,6 @@
 "use client";
 import Navbar from "@/app/components/navbar/navbar";
 import {Past} from "@/app/components/past/past";
-import Body from "../components/body/body";
 import Footer from "@/app/components/footer/footer";
 import { motion } from "framer-motion";
 import { useState } from "react";

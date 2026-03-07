@@ -94,7 +94,7 @@ export default function Navbar() {
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <Link href="/past" className={styles.link}>
-            Edición Anterior
+            Ediciones Anteriores
           </Link>
         </li>
 
