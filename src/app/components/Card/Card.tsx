@@ -3,7 +3,7 @@ import twLogo from '../../assets/twLogo.svg'
 import ghLogo from '../../assets/ghLogo.svg'
 import lkLogo from '../../assets/lkLogo.svg'
 
-import { ReactNode } from 'react'
+import { ReactNode, useState } from 'react'
 
 
 interface CardProps {
@@ -25,46 +25,26 @@ export default function Card({
   lklink = 'unknown',
   ghlink = 'unknown',
 }: CardProps) {
+  const [isFlipped, setIsFlipped] = useState(false)
   const MostrarBoton = (boton: string) => boton !== 'unknown'
 
-  return (
-    <div className={styles.card}>
-      <div className={styles.inner}>
-        <div className={styles.front}>
-          <div className={styles.photoContainer}>
-            <img src={photo} alt="Foto de perfil" />
-          </div>
-          <div className={styles.name}>
-            {children}
-          </div>
-          <div className={styles.textcontainer}>
-            {description}
-          </div>
-        </div>
-        <div
-          className={styles.back}
-          style={{ backgroundImage: `url(${backphoto})` }}
-        >
-          <div className={styles.iconContainer}>
-            {MostrarBoton(twlink) && (
-              <a href={twlink} target="_blank" rel="noopener noreferrer">
-                <img src={twLogo} alt="Twitter" className={styles.icon} />
-              </a>
-            )}
+  const handleClick = () => {
+    setIsFlipped(!isFlipped)
+  }
 
-            {MostrarBoton(lklink) && (
-              <a href={lklink} target="_blank" rel="noopener noreferrer">
-                <img src={lkLogo} alt="LinkedIn" className={styles.icon} />
-              </a>
-            )}
-            {MostrarBoton(ghlink) && (
-              <a href={ghlink} target="_blank" rel="noopener noreferrer">
-                <img src={ghLogo} alt="GitHub" className={styles.icon} />
-              </a>
-            )}
-          </div>
-        </div>
-      </div>
+  return (
+<div className={styles.flipCard} onClick={handleClick}>
+  <div className={`${styles.flipCardInner} ${isFlipped ? styles.flipCardFlip : ''}`}>
+    <div className={styles.flipCardFront}>
+      <img src="img_avatar.png" alt="Avatar">
+      </img>
     </div>
+    <div className={styles.flipCardBack}>
+      <h1>John Doe</h1>
+      <p>Architect & Engineer</p>
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
   )
 }

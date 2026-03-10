@@ -1,169 +1,45 @@
-.card {
-  perspective: 1000px;
-  margin: 10px;
-  size: 10%;  
-  border: 3px;
-  border-radius: 20px;
+.flipCard {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
 }
 
-/* Inner element: holds all the content and rotates */
-.inner {
-  display: flex;
-  aspect-ratio: 395 / 575;
-  flex-shrink: 0;
-  border-radius: 40px;;
-  border: 0px solid #7c0000;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  flex-direction: column; /* Arrange elements in a column */
-  align-items: center; /* Center horizontally */
+/* This container is needed to position the front and back side */
+.flipCardInner {
   position: relative;
-  transform-style: preserve-3d; /* Allow 3D transforms for children */
-  transition: transform 0.4s ease; /* Smooth rotation */
-  background: linear-gradient(118.94deg, rgba(208, 110, 77, 0.5) -31.34%, rgba(255, 0, 4, 0.29) 114.29%);
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(20px);
-}
-
-
-/* Rotate the inner element on hover */
-.card:hover .inner {
-  transform: rotateY(-180deg);
-}
-
-.name {
-  margin: 0 auto;
-  font-size: 5rem;
-  font-family: Protest Strike;
-  padding: 3.5%;
-  color: #573E3E;
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-}
-
-
-
-/* Both faces: positioned absolutely */
-.front,
-.back {
-  position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-/* Front face: default view */
-.front {
-  background: #ffc7c9a4;
-  transform: rotateY(0deg);
-  backdrop-filter: blur(3px); 
-}
-
-
-/* Back face: initially rotated, becomes visible after hover */
-.back {
-  position: relative; 
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flipCardFlip {
   transform: rotateY(180deg);
-  gap: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(5px);
 }
 
-.back::after {
-  content: "";
+/* Position the front and back side */
+.flipCardFront, .flipCardBack {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.24); 
-  border-radius: 50px;
-  z-index: 0; 
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
 }
 
-
-/* Container for the social media icons */
-.iconContainer {
-  position: relative; 
-  z-index: 1; 
+/* Style the front side (fallback if image is missing) */
+.flipCardFront {
+  background-color: #bbb;
+  color: black;
 }
 
-/* Anchor for social media icons */
-.back a {
-  display: inline-block;
-  width: 50px; /* Adjust as needed */
-  height: 50px;
-  opacity: 1 !important;
-}
-
-/* Icon image styling */
-.icon {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-/* Photo container styling */
-.photoContainer {
-  background-size: contain;
-  background-position: center;
-  margin: 0 auto;
-  aspect-ratio: 350 / 250;
-  height: 40%;
-  flex-shrink: 0;
-  border-radius: 41px;
-  border: 5px solid #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: lightgray 100% / contain no-repeat;
-  text-align: center;
-}
-
-/* Text container styling */
-.textcontainer {
-  padding-left: 9%;
-  padding-right: 9%;
-  aspect-ratio: 428 / 251.47;
-  height: 34%;
-  opacity: 0.9;
-  text-align: center;
-  padding-top: 10px;
-  background: linear-gradient(106.42deg, rgba(255, 255, 255, 0.8) -27.72%, rgba(255, 255, 255, 0.1) 121.87%);
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(20px);
-  border-radius: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centra el texto verticalmente */
-  align-items: center; /* Centra el texto horizontalmente */
-  text-align: center;
-  font-size: 4rem;
-  font-family: Oswald;
-  font-style: normal;
-  line-height: 41px;
-  color: #573E3E;
-
-  opacity: 0.9;
-  background: rgba(255, 255, 255, 0.74);
-  word-wrap: break-word;
-  overflow: hidden; /* Asegura que el texto no se desborde */
-}
-
-
-
-/* Image inside the photo container */
-.photoContainer img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 30px;
+/* Style the back side */
+.flipCardBack {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }
