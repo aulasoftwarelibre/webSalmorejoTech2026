@@ -15,6 +15,7 @@ export default function Cards() {
             <div className="col-md-5 col-lg-4">
               <Card
                 description="Dioos, voy a poner algo, algo, sabes lo que digo, verdad, mambo, bomboclat (Frase formal)"
+                backDescription="Dioos,dasdasdasdasdasdasdsadasads voy a poner algo, algo, sabes lo que digo, verdad, mambo, bomboclat (Frase creativa)"
                 photo={DavidMart}
                 backphoto={DavidMartOP}
                 lklink="https://www.linkedin.com/in/david-martinez-76b284352/"

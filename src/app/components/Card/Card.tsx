@@ -9,6 +9,7 @@ import { ReactNode, useState } from 'react'
 interface CardProps {
   children: ReactNode
   description: string
+  backDescription :string
   photo: string
   backphoto: string
   twlink?: string
@@ -19,6 +20,7 @@ interface CardProps {
 export default function Card({
   children,
   description,
+  backDescription,
   photo,
   backphoto,
   twlink = 'unknown',
@@ -35,10 +37,11 @@ export default function Card({
   return (
 <div className={styles.flipCard} onClick={handleClick}>
   <div className={`${styles.flipCardInner} ${isFlipped ? styles.flipCardFlip : ''}`}>
+
     <div className={styles.flipCardFront}>
 
       <div className={styles.imageContainer}>
-        <img src={photo} alt={`Foto de ${children}`} className={styles.frontImage}/>
+        <img src={photo} alt={`Foto de ${children}`}/>
       </div>
 
       <p className={styles.nameText}>{children}</p>
@@ -66,9 +69,16 @@ export default function Card({
         </div>
 
     </div>
+
+
     <div className={styles.flipCardBack}>
-      <img src={backphoto} alt="Foto Persona formal"/>
-      <p>{`${children}`}</p>
+      <div className={styles.imageBack}>
+        <img src={backphoto} alt={`Foto de ${children}`}/>
+      </div>
+
+      <div className={styles.textBackContainer}>
+        <p className={styles.backText}>{backDescription}</p>
+      </div>
     </div>
   </div>
 </div>
