@@ -5,7 +5,7 @@
   width: 25%;
   aspect-ratio: 2 / 3.5;
   perspective: 1500px; /* Remove this if you don't want the 3D effect */
-  min-width: 250px;
+  min-width: 320px;
   cursor: pointer;
 }
 
