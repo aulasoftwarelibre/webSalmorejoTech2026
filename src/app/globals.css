@@ -30,7 +30,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background-image:
-    url("./assets/FondoLandingDarkerOptimized.svg"), url("./assets/River.svg");
+    url("./assets/FondoFinal.svg"), url("./assets/River.svg");
 
   background-repeat: no-repeat, repeat;
   background-position:

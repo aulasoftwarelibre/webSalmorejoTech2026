@@ -1,22 +1,10 @@
-import Image from "next/image";
 import styles from "./body.module.css";
-import logoSalmorejo from "../../assets/logoSalmorejo.png";
-
-const IMAGE_WIDTH = 1508;
-const IMAGE_HEIGHT = 241;
 
 export default function body() {
   return (
     <div className={styles.container}>
       <div className={styles.fondo}>
         <div className={styles.image}>
-          <Image
-            src={logoSalmorejo}
-            alt="Logotipo Salmorejo Tech 2026"
-            width={IMAGE_WIDTH}
-            height={IMAGE_HEIGHT}
-            priority
-          />
         </div>
         <h1 className={styles.text}>
           LA CITA DE LA TECNOLOGÍA CORDOBESA REGRESA CON UNA ENERGÍA IMPARABLE
