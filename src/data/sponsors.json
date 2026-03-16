@@ -29,10 +29,47 @@
     "imageUrl": "/2026/sponsors/ayto_cordoba.png",
     "href": "http://www.uco.es/"
   },
-    {
-      "name": "Mercado Victoria",
-      "type": "PERA",
-      "imageUrl": "/2026/sponsors/mv.png",
-      "href": "https://www.mercadovictoria.com/"
-    }
+  {
+    "name": "Mercado Victoria",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/mv.png",
+    "href": "https://www.mercadovictoria.com/"
+  },
+  {
+  "name": "SUSE",
+  "type": "PERA",
+  "imageUrl": "/2026/sponsors/suse.png",
+  "href": "https://www.suse.com/es-es/"
+  },
+  {
+  "name": "Nter",
+  "type": "PERA",
+  "imageUrl": "/2026/sponsors/Nter-Logo-blue.png",
+  "href": "https://nter.es/"
+  },
+  {
+  "name": "RTI",
+  "type": "CHERRY",
+  "imageUrl": "/2026/sponsors/rti.png",
+  "href": "https://www.rti.com/industries"
+  },
+  {
+  "name": "Codely",
+  "type": "CHERRY",
+  "imageUrl": "/2026/sponsors/codely.png",
+  "href": "https://codely.com/"
+  },
+  {
+  "name": "Atmira",
+  "type": "CHERRY",
+  "imageUrl": "/2026/sponsors/atmira.png",
+  "href": "https://www.atmira.com/"
+  },
+  {
+  "name": "Catedra Eprinsa",
+  "type": "CHERRY",
+  "imageUrl": "/2026/sponsors/catedra_eprinsa.png",
+  "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/"
+  }
+
 ]
