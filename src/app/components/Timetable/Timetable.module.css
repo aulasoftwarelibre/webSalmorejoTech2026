@@ -29,21 +29,24 @@
 }
 
 .timetableBlock {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px) saturate(120%);
+  -webkit-backdrop-filter: blur(30px) saturate(120%);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 20px 40px 0px #00000040;
   width: 60%;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 700px;
+  height: 130px;
+  min-height: 130px;
+  opacity: 1;
+  border-radius: 40px;
+  border-width: 1px;
+  margin: 150px auto 0 auto;
+  padding: 25px 20px;
 }
 
 .timeText {
@@ -137,12 +140,20 @@
 }
 
 .textPurple {
+  width: 442px;
+  height: 70px;
+  left: 50%;
+  opacity: 1;
+  font-family: Oswald;
+  font-size: clamp(3rem, 3vm, 5 rem);
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
   color: #8B1B4C;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: clamp(2rem, 5vw, 3rem);
-  margin: 1rem 0 1rem 0;
-  text-transform: uppercase;
+
 }
 
 /*Media queries para que sea responsive*/

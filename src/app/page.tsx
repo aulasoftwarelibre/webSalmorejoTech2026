@@ -43,10 +43,10 @@ export default function Home() {
 
         <Navbar />
         <Body />
-        <Timetable />
         <FindUs/>
+        <Timetable />
+        {/*<Cards/>*/}
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
-        <Cards></Cards>
         <Footer isVisible={isAnimationComplete} />
 
       </motion.div>
