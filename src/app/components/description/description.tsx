@@ -30,7 +30,7 @@ const Description: React.FC<DescriptionProps> = ({
   return (
     <div className={styles.container}>
 
-      <div className={`${styles.glassCard} ${styles.header}`}>
+      <div className={`${styles.glassCard}`}>
         <h2 className={styles.title}>{title}</h2>
       </div>
 
