@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./description.module.css";
-import asistenteImg from "../../assets/asistentes.png";
-import ponenciasImg from "../../assets/ponencias.png";
-import networkingImg from "../../assets/networking.png";
-import startImg from "../../assets/carrusel/start.jpeg";
-import teamImg from "../../assets/carrusel/team.jpg";
-import networkingCarruselImg from "../../assets/carrusel/networking.jpg";
+import asistenteImg from "../../assets/asistentes.webp";
+import ponenciasImg from "../../assets/ponencias.webp";
+import networkingImg from "../../assets/networking.webp";
+import startImg from "../../assets/carrusel/start.webp";
+import teamImg from "../../assets/carrusel/team.webp";
+import networkingCarruselImg from "../../assets/carrusel/networking.webp";
 
 interface DescriptionProps {
   title?: string;

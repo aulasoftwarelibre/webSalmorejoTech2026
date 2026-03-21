@@ -20,7 +20,7 @@
 }
 
 @theme {
-  --animate-slide-left: slide-left 25s linear infinite;
+  --animate-slide-left: slide-left 20s linear infinite;
 
   @keyframes slide-left {
     from {

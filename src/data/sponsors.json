@@ -2,13 +2,13 @@
   {
     "name": "Sticker Mule",
     "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/stickermule.png",
+    "imageUrl": "/2026/sponsors/stickermule.webp",
     "href": "https://www.stickermule.com/es/pegatinas-personalizadas"
   },
   {
     "name": "Universidad de Cordoba",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/uco.png",
+    "imageUrl": "/2026/sponsors/uco.webp",
     "href": "http://www.uco.es/"
   },
   {
@@ -20,55 +20,55 @@
   {
     "name": "Consejo Social UCO",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/consejo-social.png",
+    "imageUrl": "/2026/sponsors/consejo-social.webp",
     "href": "http://www.uco.es/organizacion/consejosocial/index.php/es/"
   },
   {
     "name": "Ayuntamiento de Cordoba",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/ayto_cordoba.png",
+    "imageUrl": "/2026/sponsors/ayto_cordoba.webp",
     "href": "http://www.uco.es/"
   },
   {
     "name": "Mercado Victoria",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/mv.png",
+    "imageUrl": "/2026/sponsors/mv.webp",
     "href": "https://www.mercadovictoria.com/"
   },
   {
     "name": "SUSE",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/suse.png",
+    "imageUrl": "/2026/sponsors/suse.webp",
     "href": "https://www.suse.com/es-es/"
   },
   {
     "name": "Nter",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/Nter-Logo-blue.png",
+    "imageUrl": "/2026/sponsors/Nter-Logo-blue.webp",
     "href": "https://nter.es/"
   },
   {
     "name": "RTI",
     "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/rti.png",
+    "imageUrl": "/2026/sponsors/rti.webp",
     "href": "https://www.rti.com/industries"
   },
   {
     "name": "Codely",
     "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/codely.png",
+    "imageUrl": "/2026/sponsors/codely.webp",
     "href": "https://codely.com/"
   },
   {
     "name": "Atmira",
     "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/atmira.png",
+    "imageUrl": "/2026/sponsors/atmira.webp",
     "href": "https://www.atmira.com/"
   },
   {
     "name": "Catedra Eprinsa",
     "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/catedra_eprinsa.png",
+    "imageUrl": "/2026/sponsors/catedra_eprinsa.webp",
     "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/"
   }
 ]

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./footer.module.css";
-import facebookImg from "../../assets/facebookLogo.png";
-import instaImg from "../../assets/instaLogo.png";
-import telegramImg from "../../assets/telegramLogo.png";
-import linkedinImg from "../../assets/linkedinLogo.png";
-import twitterImg from "../../assets/twitterLogo.png";
-import youtubeImg from "../../assets/youtubeLogo.png";
-import githubImg from "../../assets/githubLogo.png";
-import logoAula from "../../assets/logoAula.png";
+import facebookImg from "../../assets/facebookLogo.webp";
+import instaImg from "../../assets/instaLogo.webp";
+import telegramImg from "../../assets/telegramLogo.webp";
+import linkedinImg from "../../assets/linkedinLogo.webp";
+import twitterImg from "../../assets/twitterLogo.webp";
+import youtubeImg from "../../assets/youtubeLogo.webp";
+import githubImg from "../../assets/githubLogo.webp";
+import logoAula from "../../assets/logoAula.webp";
 
 interface RRSS {
   id: number;
