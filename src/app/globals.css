@@ -19,6 +19,19 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --animate-slide-left: slide-left 25s linear infinite;
+
+  @keyframes slide-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
 html,
 body {
   min-height: 100vh;
@@ -29,8 +42,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image:
-    url("./assets/FondoFinal.svg"), url("./assets/River.svg");
+  background-image: url("./assets/FondoFinal.svg"), url("./assets/River.svg");
 
   background-repeat: no-repeat, repeat;
   background-position:

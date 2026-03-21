@@ -500,3 +500,7 @@
     font-size: 2.8rem;
   }
 }
+.carousel {
+  width: 90%;
+  max-width: 950px;
+}
