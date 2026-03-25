@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Sponsor, SponsorProps } from './index'
+import { SponsorCherry,SponsorPera, SponsorProps } from './index'
 import { AlphabeticalSort } from '../../../lib/alphabeticalSort'
 import styles from './sponsors.module.css'
 
@@ -15,16 +15,33 @@ export const SponsorsGrid = ({ sponsors }: SponsorsGridProps) => {
     .filter((sponsor) => sponsor.type === 'CHERRY')
     .sort((a, b) => AlphabeticalSort(a.name, b.name))
 
-  const orderedSponsors = [...sponsorsPera, ...sponsorsCherry]
 
   return (
     <Fragment>
       <h1 className={`${styles.schedule} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>PATROCINADORES</h1>
+      <h2 className={`${styles.scheduleType} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>PERA</h2>  
       <div className={styles.background}>
-        <div className={`${styles.container} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
-          {orderedSponsors.map((sponsor) => {
+        <div className={`${styles.containerPera} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
+          {sponsorsPera.map((sponsor) => {
             return (
-              <Sponsor
+              <SponsorPera
+                key={`Sponsor ${sponsor.name}`}
+                name={sponsor.name}
+                type={sponsor.type}
+                imageUrl={sponsor.imageUrl}
+                href={sponsor.href}
+              />
+            )
+          })}
+        </div>
+      </div>
+
+      <h2 className={`${styles.scheduleType} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>CHERRY</h2>
+      <div className={styles.background}>
+        <div className={`${styles.containerCherry} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
+          {sponsorsCherry.map((sponsor) => {
+            return (
+              <SponsorCherry
                 key={`Sponsor ${sponsor.name}`}
                 name={sponsor.name}
                 type={sponsor.type}

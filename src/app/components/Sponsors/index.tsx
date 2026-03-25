@@ -11,7 +11,7 @@ export interface SponsorProps
   href: string
 }
 
-export const Sponsor = ({
+export const SponsorPera = ({
   name,
   type,
   imageUrl,
@@ -22,7 +22,33 @@ export const Sponsor = ({
   const backgroundImage = {
     backgroundImage: `url(${imageUrl})`,
   }
-  const classes = styles.sponsor
+  const classes = styles.sponsorPera
+  return (
+    <a
+      id={`Sponsor ${name}`}
+      style={backgroundImage}
+      className={classes}
+      aria-label={label}
+      href={href !== '' ? href : undefined}
+      rel="noreferrer"
+      target="_blank"
+      {...props}
+    />
+  )
+}
+
+export const SponsorCherry = ({
+  name,
+  type,
+  imageUrl,
+  href,
+  ...props
+}: SponsorProps) => {
+  const label = `Logo de ${name}, click para ir a su web!`
+  const backgroundImage = {
+    backgroundImage: `url(${imageUrl})`,
+  }
+  const classes = styles.sponsorCherry
   return (
     <a
       id={`Sponsor ${name}`}

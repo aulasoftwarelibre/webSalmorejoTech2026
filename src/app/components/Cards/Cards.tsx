@@ -1,6 +1,5 @@
 import styles from "./Cards.module.css";
 import Card from "../Card/Card";
-import { div } from "framer-motion/client";
 
 const DavidMart = "PeoplePhotos/back/david.webp";
 const DavidMartOP = "PeoplePhotos/back/david.webp";
