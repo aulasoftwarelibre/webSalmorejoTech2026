@@ -8,7 +8,7 @@
   {
     "name": "Universidad de Cordoba",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/uco.webp",
+    "imageUrl": "/2026/sponsors/uco.svg",
     "href": "http://www.uco.es/"
   },
   {
@@ -27,7 +27,7 @@
     "name": "Ayuntamiento de Cordoba",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/ayto_cordoba.webp",
-    "href": "http://www.uco.es/"
+    "href": "https://www.cordoba.es/"
   },
   {
     "name": "Mercado Victoria",
@@ -55,15 +55,46 @@
   },
   {
     "name": "Atmira",
-    "type": "CHERRY",
+    "type": "PERA",
     "imageUrl": "/2026/sponsors/atmira.webp",
     "href": "https://www.atmira.com/"
   },
   {
     "name": "Catedra Eprinsa",
-    "type": "CHERRY",
-    "imageUrl": "/2026/sponsors/catedra_eprinsa.webp",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/catedra-eprinsa.svg",
     "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/"
+  },
+  {
+    "name": "Genially",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/genially.svg",
+    "href": "https://genially.com/es/"
+  },
+  {
+    "name": "Globo Planet",
+    "type": "CHERRY",
+    "imageUrl": "/2026/sponsors/GloboPlanet.svg",
+    "href": "https://globoplanet.es/"
+  },
+  {
+    "name": "Redsys",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/redsys.webp",
+    "href": "https://redsys.es/"
+  },
+  {
+    "name": "Softtek",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/Softtek.svg",
+    "href": "https://www.softtek.com/es-es/"
+  },
+  {
+    "name": "Plenitas",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/LogoCatedraPlenitas.webp",
+    "href": "https://www.plenitas.com/"
   }
+
 ]
 
