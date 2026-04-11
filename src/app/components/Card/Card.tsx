@@ -1,20 +1,21 @@
-import styles from './Card.module.css'
-import twLogo from '../../assets/ttLogoCard.svg'
-import ghLogo from '../../assets/ghLogoCard.svg'
-import lkLogo from '../../assets/lkLogoCard.svg'
+import styles from "./Card.module.css";
+import twLogo from "../../assets/ttLogoCard.svg";
+import ghLogo from "../../assets/ghLogoCard.svg";
+import lkLogo from "../../assets/lkLogoCard.svg";
+import otherlogo from "../../assets/otherLogo.svg";
 
-import { ReactNode, useState } from 'react'
-
+import { ReactNode, useState } from "react";
 
 interface CardProps {
-  children: ReactNode
-  description: string
-  backDescription :string
-  photo: string
-  backphoto: string
-  twlink?: string
-  lklink?: string
-  ghlink?: string
+  children: ReactNode;
+  description: string;
+  backDescription: string;
+  photo: string;
+  backphoto: string;
+  twlink?: string;
+  lklink?: string;
+  ghlink?: string;
+  otherlink?: string;
 }
 
 export default function Card({
@@ -23,64 +24,84 @@ export default function Card({
   backDescription,
   photo,
   backphoto,
-  twlink = 'unknown',
-  lklink = 'unknown',
-  ghlink = 'unknown',
+  twlink = "unknown",
+  lklink = "unknown",
+  ghlink = "unknown",
+  otherlink = "unknown",
 }: CardProps) {
-  const [isFlipped, setIsFlipped] = useState(false)
-  const MostrarBoton = (boton: string) => boton !== 'unknown'
+  const [isFlipped, setIsFlipped] = useState(false);
+  const MostrarBoton = (boton: string) => boton !== "unknown";
 
   const handleClick = () => {
-    setIsFlipped(!isFlipped)
-  }
+    setIsFlipped(!isFlipped);
+  };
 
   return (
-<div className={styles.flipCard} onClick={handleClick}>
-  <div className={`${styles.flipCardInner} ${isFlipped ? styles.flipCardFlip : ''}`}>
+    <div className={styles.flipCard} onClick={handleClick}>
+      <div
+        className={`${styles.flipCardInner} ${isFlipped ? styles.flipCardFlip : ""}`}
+      >
+        <div className={styles.flipCardFront}>
+          <div className={styles.imageContainer}>
+            <img src={photo} alt={`Foto de ${children}`} />
+          </div>
 
-    <div className={styles.flipCardFront}>
+          <p className={styles.nameText}>{children}</p>
 
-      <div className={styles.imageContainer}>
-        <img src={photo} alt={`Foto de ${children}`} />
-      </div>
+          <div className={styles.textContainer}>
+            <p className={styles.text}>{description}</p>
+          </div>
 
-      <p className={styles.nameText}>{children}</p>
-
-      <div className={styles.textContainer}>
-        <p className={styles.text}>{description}</p>
-      </div>
-
-        <div className={styles.iconsContainer}>
-          {MostrarBoton(twlink) && (
-            <a href={twlink} target="_blank" rel="noopener noreferrer">
-              <img src={twLogo.src} alt="Twitter" className={styles.iconContainer} />
-            </a>
-          )}
-          {MostrarBoton(lklink) && (
-            <a href={lklink} target="_blank" rel="noopener noreferrer">
-              <img src={lkLogo.src} alt="LinkedIn" className={styles.iconContainer} />
-            </a>
-          )}
-          {MostrarBoton(ghlink) && (
-            <a href={ghlink} target="_blank" rel="noopener noreferrer">
-              <img src={ghLogo.src} alt="GitHub" className={styles.iconContainer} />
-            </a>
-          )}
+          <div className={styles.iconsContainer}>
+            {MostrarBoton(twlink) && (
+              <a href={twlink} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={twLogo.src}
+                  alt="Twitter"
+                  className={styles.iconContainer}
+                />
+              </a>
+            )}
+            {MostrarBoton(lklink) && (
+              <a href={lklink} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={lkLogo.src}
+                  alt="LinkedIn"
+                  className={styles.iconContainer}
+                />
+              </a>
+            )}
+            {MostrarBoton(ghlink) && (
+              <a href={ghlink} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={ghLogo.src}
+                  alt="GitHub"
+                  className={styles.iconContainer}
+                />
+              </a>
+            )}
+            {MostrarBoton(otherlink) && (
+              <a href={otherlink} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={otherlogo.src}
+                  alt="Other"
+                  className={styles.iconContainer}
+                />
+              </a>
+            )}
+          </div>
         </div>
 
-    </div>
+        <div className={styles.flipCardBack}>
+          <div className={styles.imageBack}>
+            <img src={backphoto} alt={`Foto de ${children}`} />
+          </div>
 
-
-    <div className={styles.flipCardBack}>
-      <div className={styles.imageBack}>
-        <img src={backphoto} alt={`Foto de ${children}`}/>
+          <div className={styles.textBackContainer}>
+            <p className={styles.backText}>{backDescription}</p>
+          </div>
+        </div>
       </div>
-
-      <div className={styles.textBackContainer}>
-        <p className={styles.backText}>{backDescription}</p>
-      </div>
     </div>
-  </div>
-</div>
-  )
+  );
 }
