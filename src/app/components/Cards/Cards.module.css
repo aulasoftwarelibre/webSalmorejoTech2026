@@ -1,24 +1,58 @@
 .title {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px) saturate(120%);
+  -webkit-backdrop-filter: blur(30px) saturate(120%);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 20px 40px 0px #00000040;
+  width: 60%;
+  max-width: 700px;
+  height: 130px;
+  min-height: 130px;
+  opacity: 1;
+  margin-right: auto;
+  border-radius: 40px;
+  border-width: 1px;
+  margin: 50px auto 0 auto;
+  padding: 25px 20px;
   font-family: Oswald;
-  font-size: 50px;
-  font-weight: 360px;
-  color: white;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8B1B4C;
 }
 
 .group {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px) saturate(120%);
+  -webkit-backdrop-filter: blur(30px) saturate(120%);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 20px 40px 0px #00000040;
+  width: 20%;
+  max-width: 400px;
+  aspect-ratio: 6/1.5;
+  opacity: 1;
+  margin-right: auto;
+  border-radius: 40px;
+  border-width: 1px;
+  margin: 50px auto 0 auto;
+  padding: 25px 20px;
   font-family: Oswald;
-  font-size: 36px;
-  font-weight: 300;
-  color: white;
-  justify-items: center;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #8B1B4C;
 }
 
 .cardDisplay{

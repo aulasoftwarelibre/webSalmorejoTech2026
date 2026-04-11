@@ -41,7 +41,7 @@ export default function Card({
     <div className={styles.flipCardFront}>
 
       <div className={styles.imageContainer}>
-        <img src={photo} alt={`Foto de ${children}`}/>
+        <img src={photo} alt={`Foto de ${children}`} />
       </div>
 
       <p className={styles.nameText}>{children}</p>
