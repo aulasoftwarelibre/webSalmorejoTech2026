@@ -1,172 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
 
 .flipCard {
-  background-color: transparent;
-  width: 25%;
-  aspect-ratio: 2 / 3.5;
-  perspective: 1500px; /* Remove this if you don't want the 3D effect */
-  min-width: 320px;
-  cursor: pointer;
+    background-color: transparent;
+    width: 25%;
+    aspect-ratio: 2 / 3.5;
+    perspective: 1500px; /* Remove this if you don't want the 3D effect */
+    min-width: 320px;
+    cursor: pointer;
 }
-
 
 /* This container is needed to position the front and back side */
 .flipCardInner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  border-radius: 30px;
-  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 30px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flipCardFlip {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flipCardFront, .flipCardBack {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  border-radius: 30px;
-  border: 5px solid #f1f1f18a;
+.flipCardFront,
+.flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 30px;
+    border: 5px solid #f1f1f18a;
 }
 
-.flipCardFront:hover, .flipCardBack:hover{
-  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.784);
-  border-radius: 30px;
+.flipCardFront:hover,
+.flipCardBack:hover {
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.784);
+    border-radius: 30px;
 }
-
 
 /* Style the front side (fallback if image is missing) */
 .flipCardFront {
-  background: linear-gradient(#f0a093 ,#d57c6f 30%);
-  opacity: 100%;
-  color: black;
-
+    background: linear-gradient(#f0a093, #d57c6f 30%);
+    opacity: 100%;
+    color: black;
 }
 
 /* Style the back side */
 .flipCardBack {
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imageContainer {
-  width: 90%;
-  height: 40%;
-  margin: 14px auto 10px auto;
-  border: 3px solid #ffffff;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 90%;
+    height: 40%;
+    margin: 14px auto 10px auto;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.nameText{
-  font-family: Protest Strike;
-  color: #573E3E;
-  font-size: 125%;
+.nameText {
+    font-family: Protest Strike;
+    color: #573e3e;
+    font-size: 125%;
 }
-
 
 .textContainer {
-  width: 90%;
-  height: 30%;
-  margin: 14px auto 10px auto;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(to right, #ffffffd0 ,#d3978e7d 90%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 90%;
+    height: 30%;
+    margin: 14px auto 10px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to right, #ffffffd0, #d3978e7d 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5px;
 }
 
 .textBackContainer {
-  position: absolute;
-  transform: translateY(90%);
-  width: 90%;
-  height: 30%;
-  margin: 14px auto 10px auto;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(to right, #ffffff72 ,#d3978e7d 90%);
-  align-items: center;
+    position: absolute;
+    transform: translateY(90%);
+    width: 90%;
+    height: 30%;
+    margin: 14px auto 10px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to right, #ffffff72, #d3978e7d 90%);
+    align-items: center;
 }
 
-.text{
-  color: #573E3E;
-  font-family: var(--font-oswald);
-  font-size: 125%;
+.text {
+    color: #573e3e;
+    font-family: var(--font-oswald);
+    font-size: 125%;
 }
 
-.iconsContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  margin-top: 35px;
-  transition: transform 0.2s ease;
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 35px;
+    transition: transform 0.2s ease;
 }
 
-.iconContainer:hover{
-  transform: scale(1.1);
+.iconContainer:hover {
+    transform: scale(1.1);
 }
 
 .imageBack {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-  border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    border-radius: 25px;
 }
 
 .imageBack img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-.backText{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 90%;
-  color: white;
-  font-family: var(--font-oswald);
-  font-size: 150%;
+.backText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-family: var(--font-oswald);
+    font-size: 150%;
 }
 
+@media (max-width: 1280px) {
+    .iconContainer {
+        margin-top: 15px;
+    }
 
-
-@media (max-width: 1280px){
-  .iconContainer{
-    margin-top: 15px;
-  }
-
-  .backText{
-    font-size: 100%;
-  }
+    .backText {
+        font-size: 100%;
+    }
 }
