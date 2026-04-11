@@ -1,8 +1,8 @@
 import styles from "./Cards.module.css";
 import Card from "../Card/Card";
 
-const DarioFront = "PeoplePhotos/front/eljefazofront.jpg";
-const DarioBack = "PeoplePhotos/back/elbossback.jpg";
+const DarioFront = "PeoplePhotos/front/eljefazofront.webp";
+const DarioBack = "PeoplePhotos/back/elbossback.webp";
 
 interface CardInfo {
   name: string;
@@ -37,8 +37,8 @@ const General: CardInfo[] = [
     name: "Pedro Jesus Castilla Rodríguez",
     description: "Si no puedes leer el código, no eres el dueño",
     backDescription: "Soy mas de GazpachoTech",
-    photo: "PeoplePhotos/front/pedrofront.jpg",
-    backphoto: "PeoplePhotos/back/pedroback.jpeg",
+    photo: "PeoplePhotos/front/pedrofront.webp",
+    backphoto: "PeoplePhotos/back/pedroback.webp",
     ghlink: "https://github.com/TheIronfoxX ",
     twlink: "https://x.com/Ironfox_XTT",
   },
@@ -49,8 +49,8 @@ const Gestion: CardInfo[] = [
     name: "Pablo Miguel Martínez Segovia",
     description: "Siempre cocinando alguna idea nueva.",
     backDescription: "Siempre cocinando cualquier cosa.",
-    photo: "PeoplePhotos/front/pablofront.jpg",
-    backphoto: "PeoplePhotos/back/pabloback.jpg",
+    photo: "PeoplePhotos/front/pablofront.webp",
+    backphoto: "PeoplePhotos/back/pabloback.webp",
     lklink:
       "https://www.linkedin.com/in/pablo-miguel-mart%C3%ADn-segovia-1ab9001b9",
     ghlink: "https://github.com/PMMS22",
@@ -59,8 +59,8 @@ const Gestion: CardInfo[] = [
     name: "Antonio Cañete López",
     description: "Soy cañete jeje",
     backDescription: "Soy cañete otra vez jaja",
-    photo: "PeoplePhotos/front/cañetefront.jpeg",
-    backphoto: "PeoplePhotos/back/cañeteback.jpeg",
+    photo: "PeoplePhotos/front/cañetefront.webp",
+    backphoto: "PeoplePhotos/back/cañeteback.webp",
     lklink:
       "https://www.linkedin.com/in/antonio-ca%C3%B1ete-l%C3%B3pez-928a17366/",
     ghlink: "https://github.com/i32caloa",
@@ -72,8 +72,8 @@ const Gestion: CardInfo[] = [
       "Alumno de 3º de Informática, especializado en computación. Fan número 1 del flamenquín.",
     backDescription:
       "Llámame hill climbing, pues seré el primero en encontrar el óptimo local de tu corazón.",
-    photo: "PeoplePhotos/front/sergiofront.jpg",
-    backphoto: "PeoplePhotos/back/sergioback.jpeg",
+    photo: "PeoplePhotos/front/sergiofront.webp",
+    backphoto: "PeoplePhotos/back/sergioback.webp",
     lklink: "https://www.linkedin.com/in/sergio-palacios-l%C3%B3pez-695736352/",
     ghlink: "https://github.com/Serpal64",
   },
@@ -81,16 +81,16 @@ const Gestion: CardInfo[] = [
     name: "Carlos Torres Jiménez",
     description: "Me gustan los retos",
     backDescription: "Me gustan los retos",
-    photo: "PeoplePhotos/front/carlitosfront.jpg",
-    backphoto: "PeoplePhotos/back/carelitosback.jpg",
+    photo: "PeoplePhotos/front/carlitosfront.webp",
+    backphoto: "PeoplePhotos/back/carelitosback.webp",
   },
   {
     name: "Alejandro Martos Bellido",
     description:
       "Estudiando Ingeniería de Software para que la informática esté al alcance de todos.",
     backDescription: "Todo es vibe-coding si estás chill siempre",
-    photo: "PeoplePhotos/front/alejandrofront.png",
-    backphoto: "PeoplePhotos/back/alejandroback.jpg",
+    photo: "PeoplePhotos/front/alejandrofront.webp",
+    backphoto: "PeoplePhotos/back/alejandroback.webp",
     lklink: "www.linkedin.com/in/alejandromartosbellido",
     ghlink: "https://github.com/alejandrombe",
     twlink: "https://x.com/alejandro_mbe",
@@ -103,8 +103,8 @@ const Infraestructura: CardInfo[] = [
     description: "Heyy soy un tio formal y me flipa el desarrollo de software",
     backDescription:
       "Number 1 esclavizador de Gemini (con criterio), checka mis repooos ^^",
-    photo: "PeoplePhotos/front/davidfront.jpeg",
-    backphoto: "PeoplePhotos/back/davidback.jpeg",
+    photo: "PeoplePhotos/front/davidfront.webp",
+    backphoto: "PeoplePhotos/back/davidback.webp",
     lklink:
       "https://www.linkedin.com/in/david-s%C3%A1nchez-palomino-a06671322/?skipRedirect=true",
     ghlink: "https://github.com/davidI9",
@@ -115,8 +115,8 @@ const Infraestructura: CardInfo[] = [
     description:
       "3° de ingeniería informática, ¡siempre dispuesto y con muchísimas ganas de aprender!",
     backDescription: "Glu glu glu glu",
-    photo: "PeoplePhotos/front/juanfront.jpg",
-    backphoto: "PeoplePhotos/back/juanback.jpg",
+    photo: "PeoplePhotos/front/juanfront.webp",
+    backphoto: "PeoplePhotos/back/juanback.webp",
     lklink:
       "https://www.linkedin.com/in/juan-mellado-02056a352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     ghlink: "https://github.com/ByteKata08",
@@ -126,23 +126,23 @@ const Infraestructura: CardInfo[] = [
     name: "Roxana Ortiz Mellado",
     description: "Estudiante de ingeniería informática",
     backDescription: "Estudiante de ingeniería informática",
-    photo: "PeoplePhotos/front/roxanafront.jpg",
-    backphoto: "PeoplePhotos/back/roxanaback.jpg",
+    photo: "PeoplePhotos/front/roxanafront.webp",
+    backphoto: "PeoplePhotos/back/roxanaback.webp",
   },
   {
     name: "Nicolás Sánchez Álvarez",
     description: "Estudiante de ingeniería informática en la UCO. ",
     backDescription: "SalmorejoTech‼️",
-    photo: "PeoplePhotos/front/nicofront.jpeg",
-    backphoto: "PeoplePhotos/back/nicoback.jpeg",
+    photo: "PeoplePhotos/front/nicofront.webp",
+    backphoto: "PeoplePhotos/back/nicoback.webp",
     ghlink: "https://github.com/dextbrawl",
   },
   {
     name: "Chenhao Zheng",
     description: "Amo y odio programar",
     backDescription: "Amo y odio programar",
-    photo: "PeoplePhotos/front/chenfront.jpeg",
-    backphoto: "PeoplePhotos/back/chenback.jpeg",
+    photo: "PeoplePhotos/front/chenfront.webp",
+    backphoto: "PeoplePhotos/back/chenback.webp",
   },
 ];
 
@@ -152,8 +152,8 @@ const Marketing: CardInfo[] = [
     description: "Máquina de posts y memes recién salidos de Italia",
     backDescription:
       "Una vez entras en Ingeniería del Software nunca escapas del Scrum",
-    photo: "PeoplePhotos/front/jaimefront.jpeg",
-    backphoto: "PeoplePhotos/back/jaimeback.jpg",
+    photo: "PeoplePhotos/front/jaimefront.webp",
+    backphoto: "PeoplePhotos/back/jaimeback.webp",
     lklink: "https://www.linkedin.com/in/jaime-hp/",
     ghlink: "https://github.com/JaimeHP05",
     twlink: "https://x.com/JaimeH_05",
@@ -162,8 +162,8 @@ const Marketing: CardInfo[] = [
     name: "Manuel Reyes Serrano",
     description: "Experto en aprender",
     backDescription: "Hice un botón y la página se volvió azul",
-    photo: "PeoplePhotos/front/tefryfront.png",
-    backphoto: "PeoplePhotos/back/tefryconunfurro.png",
+    photo: "PeoplePhotos/front/tefryfront.webp",
+    backphoto: "PeoplePhotos/back/tefryconunfurro.webp",
     lklink: "https://www.linkedin.com/in/manuel-reyes-a15283352/",
     twlink: "https://x.com/Tefry_nt",
   },
@@ -173,8 +173,8 @@ const Marketing: CardInfo[] = [
       "Estudiante de 3º de Ingeniería Informática, especializada en Computación.",
     backDescription:
       "Siempre con ganas de aprender y lista para afrontar cualquier reto",
-    photo: "PeoplePhotos/front/aliciafront.jpeg",
-    backphoto: "PeoplePhotos/back/aliciaback.jpeg",
+    photo: "PeoplePhotos/front/aliciafront.webp",
+    backphoto: "PeoplePhotos/back/aliciaback.webp",
     lklink:
       "https://www.linkedin.com/in/alicia-muriel-fern%C3%A1ndez-ab083538a/",
     ghlink: "https://github.com/i32mufea",
@@ -184,8 +184,8 @@ const Marketing: CardInfo[] = [
     name: "Rafael Girón Prats",
     description: "Especialista en aportar soluciones con rigor y dedicación.",
     backDescription: "Lo mejor del SalmorejoTech es la comida gratis",
-    photo: "PeoplePhotos/front/rafafront.jpeg",
-    backphoto: "PeoplePhotos/back/rafaback.jpg",
+    photo: "PeoplePhotos/front/rafafront.webp",
+    backphoto: "PeoplePhotos/back/rafaback.webp",
     lklink: "https://linkedin.com/in/rafa-girón-prats-683a263b4",
     ghlink: "https://github.com/Rafalete-UCO",
     twlink: "https://x.com/faralete",
@@ -197,23 +197,23 @@ const Diseño: CardInfo[] = [
     name: "Javier León Torrecilla",
     description: "Estudiante de Ingeniería Informática en la UCO",
     backDescription: "🤠",
-    photo: "PeoplePhotos/front/cucofront.jpg",
-    backphoto: "PeoplePhotos/back/cucoback.JPG",
+    photo: "PeoplePhotos/front/cucofront.webp",
+    backphoto: "PeoplePhotos/back/cucoback.webp",
   },
   {
     name: "Gema María Espejo Plasencia",
     description: "Si no lo consigo hoy, lo intentaré mañana",
     backDescription: "Madre de una bola gorda de pelo monísima ",
-    photo: "PeoplePhotos/front/gemafront.jpeg",
-    backphoto: "PeoplePhotos/back/gemaback.jpg",
+    photo: "PeoplePhotos/front/gemafront.webp",
+    backphoto: "PeoplePhotos/back/gemaback.webp",
   },
   {
     name: "Adrián Ortiz Rodríguez",
     description: "Estudiante infiltrado de ingeniería eléctrica",
     backDescription:
       'A  veces en la vida hay que decir " amai " y seguir para delante',
-    photo: "PeoplePhotos/front/adrianfront.jpeg",
-    backphoto: "PeoplePhotos/back/adrianback.jpg",
+    photo: "PeoplePhotos/front/adrianfront.webp",
+    backphoto: "PeoplePhotos/back/adrianback.webp",
     lklink: "https://www.linkedin.com/in/arrimarcos/",
     ghlink: "https://github.com/adrianmarcos1823-gif",
   },

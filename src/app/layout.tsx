@@ -100,7 +100,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Aula de Software Libre",
               url: "https://www.uco.es/aulasoftwarelibre/",
-              logo: "https://salmorejo.tech/2026/opengraph-image.jpg",
+              logo: "https://salmorejo.tech/2026/opengraph-image.webp",
               sameAs: [
                 "https://twitter.com/AulaSL",
                 "https://www.instagram.com/aulasoftwarelibre/",
