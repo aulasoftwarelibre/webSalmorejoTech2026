@@ -212,8 +212,10 @@ const Diseño: CardInfo[] = [
     description: "Estudiante infiltrado de ingeniería eléctrica",
     backDescription:
       'A  veces en la vida hay que decir " amai " y seguir para delante',
-    photo: "PeoplePhotos/front/adrian.jpeg",
-    backphoto: "PeoplePhotos/front/adrian.jpeg",
+    photo: "PeoplePhotos/front/adrianfront.jpeg",
+    backphoto: "PeoplePhotos/back/adrianback.jpg",
+    lklink: "https://www.linkedin.com/in/arrimarcos/",
+    ghlink: "https://github.com/adrianmarcos1823-gif",
   },
 ];
 
