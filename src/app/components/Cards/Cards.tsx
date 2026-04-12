@@ -101,6 +101,16 @@ const Gestion: CardInfo[] = [
 
 const Infraestructura: CardInfo[] = [
   {
+    name: "David Martínez Molina",
+    description: "Estudiante de 3º de informática, afrontando la vida con humor",
+    backDescription: "Soy literalmente balatro balatrez 🤡",
+    photo: "PeoplePhotos/front/david.webp",
+    backphoto: "PeoplePhotos/back/davidMback.webp",
+    lklink:
+      "https://www.linkedin.com/in/david-martinez-76b284352/",
+    ghlink: "https://github.com/darkghost078",
+  },
+  {
     name: "David Sánchez Palomino",
     description: "Heyy soy un tio formal y me flipa el desarrollo de software",
     backDescription: "Number 1 esclavizador de Gemini (con criterio)",
