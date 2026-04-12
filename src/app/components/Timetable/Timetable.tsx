@@ -58,36 +58,35 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Seguridad exponencial para un tráfico exponencial: Inside Plenitas",
-                "José Antonio Castelo y Jaime Esquivias",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Seguridad exponencial para un tráfico exponencial: Inside Plenitas
+              TBA
             </h3>
             <p className={styles.scheduleAuthor}>
-              José Antonio Castelo y Jaime Esquivias
+              
             </p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Cómo convertirse en el perfil que todos los recruiters quieran fichar",
-                "Gabriela Alba Ballesteros",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Cómo convertirse en el perfil que todos los recruiters quieran
-              fichar
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Gabriela Alba Ballesteros</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -115,33 +114,33 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Arquitectura Limpia en el Front",
-                "Rubén Aguilera",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Arquitectura Limpia en el Front
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Rubén Aguilera</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Debug Your Life: Enfrentando el Burnout en Tech",
-                "Mariana Rolfo",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Debug Your Life: Enfrentando el Burnout en Tech
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Mariana Rolfo</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -156,33 +155,33 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Beyond the Tab: How Modern Browsers are being built",
-                "Marc Rodríguez",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Beyond the Tab: How Modern Browsers are being built
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Marc Rodríguez</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Awesome Selfhosted versión gratuita",
-                "Eduardo Roldán Pijuán",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Awesome Selfhosted versión gratuita
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Eduardo Roldán Pijuán</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -210,33 +209,33 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Generando código en arquitectura hexagonal desde contratos",
-                "Carlos Agudo Belloso",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Generando código en arquitectura hexagonal desde contratos
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Carlos Agudo Belloso</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Datos y política: MP Scrape",
-                "Sofía Aritz Albors Escobés",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Datos y política: MP Scrape
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Sofía Aritz Albors Escobés</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -251,33 +250,33 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Cómo construir un interprete de lenguaje de signos con IA",
-                "Rafa, Alba y Jesús",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Cómo construir un interprete de lenguaje de signos con IA
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Rafa, Alba y Jesús</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Accesibilidad web: Guía de supervivencia para noobies",
-                "Mía Salazar",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Accesibilidad web: Guía de supervivencia para noobies
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Mía Salazar</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -305,33 +304,33 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Game of Forums",
-                "Ainoa Guillén González y Gloria Jorge Lema",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>Game of Forums</h3>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
             <p className={styles.scheduleAuthor}>
-              Ainoa Guillén González y Gloria Jorge Lema
+              
             </p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Buenas Prácticas para la Gestión de Repositorios en GitHub",
-                "Juan Ariza Toledano",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Buenas Prácticas para la Gestión de Repositorios en GitHub
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Juan Ariza Toledano</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -346,34 +345,34 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "No, lo que haces no es DDD (y tampoco pasa nada)",
-                "Rolando Caldas Sánchez",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              No, lo que haces no es DDD (y tampoco pasa nada)
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Rolando Caldas Sánchez</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Mamá, de mayor quiero ser ponente",
-                "Marisa Martín y Lourdes Martínez",
+                "TBA",
+                "",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Mamá, de mayor quiero ser ponente
+              TBA
             </h3>
             <p className={styles.scheduleAuthor}>
-              Marisa Martín y Lourdes Martínez
+              
             </p>
           </div>
         </div>
@@ -389,17 +388,17 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "El Poder del Código Libre. Hablemos de Open Source",
-                "Leifer Mendez",
+                "TBA",
+                "",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              El Poder del Código Libre. Hablemos de Open Source
+              TBA
             </h3>
-            <p className={styles.scheduleAuthor}>Leifer Mendez</p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
