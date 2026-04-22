@@ -246,17 +246,17 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "TBA",
-                "",
+                "Arquitectura y producto: La casa por los cimientos! ",
+                "Partiendo de la ideación de un nuevo producto digital, iremos ladrillo sobre ladrillo tomando las decisiones técnicas y de producto para que sea exitoso, robusto y soporte el paso del tiempo.",
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              TBA
+              Arquitectura y producto: La casa por los cimientos! 
             </h3>
-            <p className={styles.scheduleAuthor}></p>
+            <p className={styles.scheduleAuthor}>Marisa Martín Serrano</p>
           </div>
           <div
             className={styles.trackEvent}
