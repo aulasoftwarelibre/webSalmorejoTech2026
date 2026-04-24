@@ -124,6 +124,13 @@
     transform: scale(1.02);
 }
 
+.squareLogoCherry{
+    background-size: 65%;
+}
+
+.squareLogoPera{
+    background-size: 69%;
+}
 /* For medium screens */
 @media (max-width: 1024px) {
     .schedule {

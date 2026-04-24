@@ -9,6 +9,7 @@ export interface SponsorProps
   type: PossibleType
   imageUrl: string
   href: string
+  isSquare?: boolean
 }
 
 export const SponsorPera = ({
@@ -16,13 +17,16 @@ export const SponsorPera = ({
   type,
   imageUrl,
   href,
+  isSquare,
   ...props
 }: SponsorProps) => {
   const label = `Logo de ${name}, click para ir a su web!`
   const backgroundImage = {
     backgroundImage: `url(${imageUrl})`,
   }
-  const classes = styles.sponsorPera
+    const classes = isSquare
+    ? `${styles.sponsorPera} ${styles.squareLogoPera}`
+    : styles.sponsorPera;
   return (
     <a
       id={`Sponsor ${name}`}
@@ -42,13 +46,16 @@ export const SponsorCherry = ({
   type,
   imageUrl,
   href,
+  isSquare,
   ...props
 }: SponsorProps) => {
   const label = `Logo de ${name}, click para ir a su web!`
   const backgroundImage = {
     backgroundImage: `url(${imageUrl})`,
   }
-  const classes = styles.sponsorCherry
+  const classes = isSquare
+    ? `${styles.sponsorCherry} ${styles.squareLogoCherry}`
+    : styles.sponsorCherry;
   return (
     <a
       id={`Sponsor ${name}`}

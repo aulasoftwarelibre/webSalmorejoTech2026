@@ -9,19 +9,25 @@
     "name": "Universidad de Cordoba",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/uco.svg",
-    "href": "http://www.uco.es/"
+    "href": "http://www.uco.es/",
+    "isSquare":true
+
   },
   {
     "name": "Escuela Politécnica Superior de Cordoba",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/epsc.svg",
-    "href": "https://www.uco.es/eps/es/"
+    "href": "https://www.uco.es/eps/es/",
+    "isSquare":true
+
   },
   {
     "name": "Uco Cultura",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/logo-ucocultura.svg",
-    "href": "https://www.uco.es/cultura/"
+    "href": "https://www.uco.es/cultura/",
+    "isSquare":true
+
   },
   {
     "name": "Ayuntamiento de Cordoba",
@@ -45,7 +51,8 @@
     "name": "RTI",
     "type": "CHERRY",
     "imageUrl": "/2026/sponsors/rti.webp",
-    "href": "https://www.rti.com/industries"
+    "href": "https://www.rti.com/industries",
+    "isSquare": true
   },
   {
     "name": "Codely",
@@ -57,13 +64,16 @@
     "name": "Atmira",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/atmira.webp",
-    "href": "https://www.atmira.com/"
+    "href": "https://www.atmira.com/",
+    "isSquare":true
+
   },
   {
     "name": "Catedra Eprinsa",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/catedra-eprinsa.svg",
-    "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/"
+    "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/",
+    "isSquare":true
   },
   {
     "name": "Genially",
@@ -93,7 +103,8 @@
     "name": "Plenitas",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/LogoCatedraPlenitas.webp",
-    "href": "https://www.plenitas.com/"
+    "href": "https://www.plenitas.com/",
+    "isSquare":true
   },
   {
     "name": "Apipana",
@@ -112,6 +123,19 @@
     "type": "PERA",
     "imageUrl": "/2026/sponsors/CaixaBank.png",
     "href": "https://www.caixabanktech.com/es/pagina-de-inicio/"
+  },
+  {
+    "name": "FuzeTea",
+    "type": "CHERRY",
+    "imageUrl": "/2026/sponsors/FuzeTea.svg",
+    "href": "https://www.coca-cola.com/es/es/brands/fuze-tea",
+    "isSquare":true
+  },
+  {
+    "name": "CORDOBA TECH PARK",
+    "type": "CHERRY",
+    "imageUrl": "/2026/sponsors/CordobaTechPark.svg",
+    "href": "https://ptcordoba.es/"
   }
 ]
 

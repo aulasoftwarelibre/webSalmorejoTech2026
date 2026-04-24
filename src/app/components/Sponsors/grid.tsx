@@ -30,6 +30,7 @@ export const SponsorsGrid = ({ sponsors }: SponsorsGridProps) => {
                 type={sponsor.type}
                 imageUrl={sponsor.imageUrl}
                 href={sponsor.href}
+                isSquare={sponsor.isSquare}
               />
             )
           })}
@@ -38,19 +39,20 @@ export const SponsorsGrid = ({ sponsors }: SponsorsGridProps) => {
 
       <h2 className={`${styles.scheduleType} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}>CHERRY</h2>
       <div className={styles.background}>
-        <div className={`${styles.containerCherry} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
-          {sponsorsCherry.map((sponsor) => {
-            return (
-              <SponsorCherry
-                key={`Sponsor ${sponsor.name}`}
-                name={sponsor.name}
-                type={sponsor.type}
-                imageUrl={sponsor.imageUrl}
-                href={sponsor.href}
-              />
-            )
-          })}
-        </div>
+          <div className={`${styles.containerCherry} bg-white/30 backdrop-blur-md border border-neutral-400/20`}>
+            {sponsorsCherry.map((sponsor) => {
+              return (
+                <SponsorCherry
+                  key={`Sponsor ${sponsor.name}`}
+                  name={sponsor.name}
+                  type={sponsor.type}
+                  imageUrl={sponsor.imageUrl}
+                  href={sponsor.href}
+                  isSquare={sponsor.isSquare}
+                />
+              )
+            })}
+          </div>
       </div>
     </Fragment>
   )
