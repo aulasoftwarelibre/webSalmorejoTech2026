@@ -239,6 +239,13 @@ const Diseño: CardInfo[] = [
     lklink: "https://www.linkedin.com/in/arrimarcos/",
     ghlink: "https://github.com/adrianmarcos1823-gif",
   },
+    {
+    name: "Minghan Wang",
+    description: "Un estudiante de informatica abierto al aprendizaje.",
+    backDescription: "Ojalá el meme de Cristiano Ronaldo y Messi hubiese sido idea mía.",
+    photo: "PeoplePhotos/front/minghanfront.webp",
+    backphoto: "PeoplePhotos/back/minghanback.webp",
+  }
 ];
 
 const Sections: CardSection[] = [
