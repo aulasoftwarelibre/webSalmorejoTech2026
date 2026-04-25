@@ -27,9 +27,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>08:30</p>
           <p className={styles.timeText}>08:55</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>CHECK IN</h3>
         </div>
       </div>
@@ -39,9 +37,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>09:00</p>
           <p className={styles.timeText}>09:10</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>ACTO DE BIENVENIDA</h3>
         </div>
       </div>
@@ -54,21 +50,11 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK OMEYA",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>
-              TBA
-            </h3>
-            <p className={styles.scheduleAuthor}>
-              
-            </p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
@@ -81,9 +67,7 @@ const Schedule: React.FC = () => {
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>
-              Más allá del pixel perfect
-            </h3>
+            <h3 className={styles.scheduleTitle}>Más allá del pixel perfect</h3>
             <p className={styles.scheduleAuthor}>Arantxa Delgado Ruiz</p>
           </div>
         </div>
@@ -94,9 +78,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>10:00</p>
           <p className={styles.timeText}>10:30</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>DESAYUNO</h3>
         </div>
       </div>
@@ -109,18 +91,10 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK OMEYA",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>
-              TBA
-            </h3>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
             <p className={styles.scheduleAuthor}></p>
           </div>
           <div
@@ -152,33 +126,35 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Psicología de la Fluidez: diseño cognitivo con React 19",
-                "Analizaremos cómo los usuarios piensan mientras interactúan con nuestras aplicaciones. Al separar intención y ejecución mediante rendering concurrente, podemos reducir fricción cognitiva y preservar la continuidad perceptiva. Una mirada técnica y neurocognitiva a cómo diseñar experiencias que realmente se sienten fluidas.",
+                'Dale "Salmorejo" a tu IA: Construye tu primer servidor MCP',
+                '¿Tu LLM alucina o no conoce tus datos privados? El Model Context Protocol (MCP) es el nuevo estándar abierto (el "USB" de la IA) para conectar modelos con tus herramientas. En esta charla aprenderemos a programar un servidor MCP desde cero. Expondremos recursos y herramientas para que la IA interactúe con tus APIs y bases de datos en tiempo real.',
                 "TRACK OMEYA",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Psicología de la Fluidez: diseño cognitivo con React 19
+              Dale "Salmorejo" a tu IA: Construye tu primer servidor MCP
             </h3>
-            <p className={styles.scheduleAuthor}>Ivan Sánchez</p>
+            <p className={styles.scheduleAuthor}>
+              Alberto Jesus Gutierrez Juanes
+            </p>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "TBA",
-                "",
+                "Psicología de la Fluidez: diseño cognitivo con React 19",
+                "Analizaremos cómo los usuarios piensan mientras interactúan con nuestras aplicaciones. Al separar intención y ejecución mediante rendering concurrente, podemos reducir fricción cognitiva y preservar la continuidad perceptiva. Una mirada técnica y neurocognitiva a cómo diseñar experiencias que realmente se sienten fluidas.",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              TBA
+              Psicología de la Fluidez: diseño cognitivo con React 19
             </h3>
-            <p className={styles.scheduleAuthor}></p>
+            <p className={styles.scheduleAuthor}>Ivan Sánchez</p>
           </div>
         </div>
       </div>
@@ -188,9 +164,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>12:05</p>
           <p className={styles.timeText}>12:35</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>TAPA</h3>
         </div>
       </div>
@@ -215,22 +189,16 @@ const Schedule: React.FC = () => {
             <h3 className={styles.scheduleTitle}>
               IA aplicada a optimización de procesos y gestión logística
             </h3>
-            <p className={styles.scheduleAuthor}>Joaquin Mateos Barroso y Rafael Egea Jurado</p>
+            <p className={styles.scheduleAuthor}>
+              Joaquin Mateos Barroso y Rafael Egea Jurado
+            </p>
           </div>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK MUDÉJAR",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK MUDÉJAR")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>
-              TBA
-            </h3>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
             <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
@@ -254,7 +222,7 @@ const Schedule: React.FC = () => {
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>
-              Arquitectura y producto: La casa por los cimientos! 
+              Arquitectura y producto: La casa por los cimientos!
             </h3>
             <p className={styles.scheduleAuthor}>Marisa Martín Serrano</p>
           </div>
@@ -270,7 +238,7 @@ const Schedule: React.FC = () => {
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Arquitectura y producto: La casa por los cimientos! 
+              Arquitectura y producto: La casa por los cimientos!
             </h3>
             <p className={styles.scheduleAuthor}>Mario Espejo Quesada</p>
           </div>
@@ -282,9 +250,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>14:10</p>
           <p className={styles.timeText}>15:20</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>COMIDA</h3>
         </div>
       </div>
@@ -297,19 +263,11 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK OMEYA",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}>
-              
-            </p>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
@@ -338,37 +296,19 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "Dale \"Salmorejo\" a tu IA: Construye tu primer servidor MCP",
-                "¿Tu LLM alucina o no conoce tus datos privados? El Model Context Protocol (MCP) es el nuevo estándar abierto (el \"USB\" de la IA) para conectar modelos con tus herramientas. En esta charla aprenderemos a programar un servidor MCP desde cero. Expondremos recursos y herramientas para que la IA interactúe con tus APIs y bases de datos en tiempo real.",
-                "TRACK OMEYA",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>
-              Dale "Salmorejo" a tu IA: Construye tu primer servidor MCP
-            </h3>
-            <p className={styles.scheduleAuthor}>Alberto Jesus Gutierrez Juanes</p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}></p>
           </div>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK MUDÉJAR",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK MUDÉJAR")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>
-              TBA
-            </h3>
-            <p className={styles.scheduleAuthor}>
-              
-            </p>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
+            <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
       </div>
@@ -381,18 +321,10 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() =>
-              handleEventClick(
-                "TBA",
-                "",
-                "TRACK OMEYA",
-              )
-            }
+            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>
-              TBA
-            </h3>
+            <h3 className={styles.scheduleTitle}>TBA</h3>
             <p className={styles.scheduleAuthor}></p>
           </div>
         </div>
@@ -403,9 +335,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>17:40</p>
           <p className={styles.timeText}>18:05</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>ACTO DE Despedida</h3>
         </div>
       </div>
@@ -415,9 +345,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>18:10</p>
           <p className={styles.timeText}>19:40</p>
         </div>
-        <div
-          className={styles.fullWidthEvent}
-        >
+        <div className={styles.fullWidthEvent}>
           <h3 className={styles.scheduleTitleTimetable}>NETWORKING</h3>
         </div>
       </div>
