@@ -136,7 +136,14 @@
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(30px) saturate(120%);
     -webkit-backdrop-filter: blur(30px) saturate(120%);
-    
+            color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.03) 100%
+    );
+    backdrop-filter: blur(6px);
   }
   .navbar.navbarOpen {
     border-radius: 1.5rem !important;
@@ -180,6 +187,7 @@
     text-align: left;
     font-size: 1.3rem;
     transition: all 0.3s ease;
+
   }
   .link:hover,
   .link:focus,

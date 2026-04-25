@@ -5,8 +5,7 @@ export default function body() {
     <div className={styles.container}>
       <h1 className={styles.textAbout}>Sobre Nosotros</h1>
       <p className={styles.text}>
-        El Aula de Software Libre fue creada en 2006 con la unión de un grupo de
-        estudiantes que tenían intereses parecidos.<br></br>
+        El Aula de Software Libre fue creada en 2009 gracias al esfuerzo de un grupo de estudiantes que venían trabajandolo desde 2006.<br></br>
         <br></br>Hoy en día, se siguen manteniendo los pilares que en aquel
         momento se definieron:
       </p>
