@@ -9,7 +9,7 @@
     backdrop-filter: blur(40px);
     box-shadow: 0px 20px 40px 0px #00000040;
     width: 60%;
-    max-width: 700px;
+    max-width: 800px;
     height: 130px;
     min-height: 130px;
     opacity: 1;
@@ -25,6 +25,7 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: #8b1b4c;
+    text-align: center;
 }
 
 .group {
@@ -66,6 +67,11 @@
 @media (max-width: 1300px) {
     .cardSlot {
         flex: 0 0 calc(50% - 20px);
+    }
+    .title {
+        width: 70%;
+        font-size: clamp(2.5rem, 8vw, 4rem);
+        padding: 1rem 1rem;
     }
 }
 

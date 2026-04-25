@@ -278,7 +278,7 @@ export default function Cards() {
         <h2
           className={`${styles.title} bg-white/30 backdrop-blur-xs border border-neutral-400/20 text-3xl py-5`}
         >
-          Nuestro equipo
+          Equipo del SalmorejoTech
         </h2>
         {Sections.map((section) => (
           <div key={section.sectionName} className="justify-items-center grid">
