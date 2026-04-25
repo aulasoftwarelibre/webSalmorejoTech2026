@@ -2,6 +2,7 @@
 import Navbar from "@/app/components/navbar/navbar";
 import AboutUs from "@/app/components/aboutUs/aboutUs";
 import Footer from "@/app/components/footer/footer";
+import Cards from "@/app/components/Cards/Cards";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -33,6 +34,7 @@ export default function Home() {
       >
         <Navbar />
         <AboutUs/>
+        <Cards/>
         <Footer isVisible={isAnimationComplete} />
       </motion.div>
     </div>

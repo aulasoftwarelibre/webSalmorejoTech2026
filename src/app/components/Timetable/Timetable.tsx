@@ -19,7 +19,7 @@ const Schedule: React.FC = () => {
   return (
     <div className={styles.scheduleContainer}>
       <div className={styles.timetableBlock}>
-        <h2 className={styles.textPurple}>HORARIOS</h2>
+        <h2 className={styles.textPurple}>HORARIO</h2>
       </div>
 
       <div className={styles.scheduleRow}>

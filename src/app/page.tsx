@@ -4,7 +4,6 @@ import Navbar from "@/app/components/navbar/navbar";
 import Body from "@/app/components/body/body";
 import Footer from "@/app/components/footer/footer";
 import Timetable from "@/app/components/Timetable/Timetable";
-import Cards from "./components/Cards/Cards";
 import Description from "@/app/components/description/description";
 
 import { motion } from "framer-motion";
@@ -45,7 +44,6 @@ export default function Home() {
         <Description />
         <FindUs />
         <Timetable />
-        <Cards/>
         <SponsorsGrid sponsors={sponsors as SponsorProps[]} />
         <Footer isVisible={isAnimationComplete} />
       </motion.div>

@@ -3,6 +3,7 @@ import twLogo from "../../assets/ttLogoCard.svg";
 import ghLogo from "../../assets/ghLogoCard.svg";
 import lkLogo from "../../assets/lkLogoCard.svg";
 import otherlogo from "../../assets/otherLogo.svg";
+import { SITE_BASE_PATH } from "../../../config/constants";
 
 import { ReactNode, useState } from "react";
 
@@ -43,7 +44,7 @@ export default function Card({
       >
         <div className={styles.flipCardFront}>
           <div className={styles.imageContainer}>
-            <img src={photo} alt={`Foto de ${children}`} />
+            <img src={`${SITE_BASE_PATH}${photo}`} alt={`Foto de ${children}`} />
           </div>
 
           <p className={styles.nameText}>{children}</p>
@@ -94,7 +95,7 @@ export default function Card({
 
         <div className={styles.flipCardBack}>
           <div className={styles.imageBack}>
-            <img src={backphoto} alt={`Foto de ${children}`} />
+            <img src={`${SITE_BASE_PATH}${backphoto}`} alt={`Foto de ${children}`} />
           </div>
 
           <div className={styles.textBackContainer}>
