@@ -133,6 +133,10 @@
     padding: 0.5rem 1rem;
     min-height: 60px;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px) saturate(120%);
+    -webkit-backdrop-filter: blur(30px) saturate(120%);
+    
   }
   .navbar.navbarOpen {
     border-radius: 1.5rem !important;
