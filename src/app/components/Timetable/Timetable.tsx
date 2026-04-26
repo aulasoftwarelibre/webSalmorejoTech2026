@@ -1,15 +1,43 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./Timetable.module.css";
+
+import ArantxaDR from "../../assets/ponentes/ArantxaDR.webp";
+import Bernardo from "../../assets/ponentes/Bernardo Q (1).webp";
+import BernardoOffice from "../../assets/ponentes/Bernardo - office (2).webp";
+import ConchaAsensio from "../../assets/ponentes/Concha Asensio.webp";
+import IvanSanchez from "../../assets/ponentes/IvanSanchez.webp";
+import JoaquinMateos from "../../assets/ponentes/Joaquín Mateos.webp";
+import Juanlu from "../../assets/ponentes/Juanlu.webp";
+import MarioEspejo from "../../assets/ponentes/Mario Espejo.webp";
+import Marisa from "../../assets/ponentes/Marisa.webp";
+import NataliaDePablo from "../../assets/ponentes/Natalia de Pablo.webp";
+import RafaelEgea from "../../assets/ponentes/Rafael Egea.webp";
+import Rukaya from "../../assets/ponentes/Rukaya.webp";
+import irenemm from "../../assets/ponentes/irenemm.webp";
+import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
+
+const ponentes: Record<string, any> = {
+  "Arantxa Delgado Ruiz": ArantxaDR,
+  "Ivan Sánchez": IvanSanchez,
+  "Joaquín Mateos Barroso y Rafael Egea": JoaquinMateos,
+  "Mario Espejo Quesada": MarioEspejo,
+  "Marisa Martín Serrano": Marisa,
+  "Moisés Rodríguez Jurado": MoisesRodriguez,
+  "Alberto Jesus Gutierrez Juanes": Rukaya,
+};
 
 const Schedule: React.FC = () => {
   const [selectedEvent, setSelectedEvent] = useState<{
     title: string;
     author: string;
     track?: string;
+    ponenteImage?: any;
   } | null>(null);
 
   const handleEventClick = (title: string, author: string, track?: string) => {
-    setSelectedEvent({ title, author, track });
+    const ponenteImage = ponentes[author];
+    setSelectedEvent({ title, author, track, ponenteImage });
   };
 
   const closeModal = () => {
@@ -69,6 +97,14 @@ const Schedule: React.FC = () => {
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>Más allá del pixel perfect</h3>
             <p className={styles.scheduleAuthor}>Arantxa Delgado Ruiz</p>
+            <div className={`${styles.trackPhoto} ${styles.round}`}>
+              <Image
+                src={ArantxaDR}
+                alt="Arantxa Delgado Ruiz"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -139,6 +175,14 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Alberto Jesus Gutierrez Juanes
             </p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={Rukaya}
+                alt="Alberto Jesus Gutierrez Juanes"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
@@ -155,6 +199,14 @@ const Schedule: React.FC = () => {
               Psicología de la Fluidez: diseño cognitivo con React 19
             </h3>
             <p className={styles.scheduleAuthor}>Ivan Sánchez</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={IvanSanchez}
+                alt="Ivan Sánchez"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -192,6 +244,14 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Joaquin Mateos Barroso y Rafael Egea Jurado
             </p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={JoaquinMateos}
+                alt="Joaquín Mateos"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
@@ -225,13 +285,21 @@ const Schedule: React.FC = () => {
               Arquitectura y producto: La casa por los cimientos!
             </h3>
             <p className={styles.scheduleAuthor}>Marisa Martín Serrano</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={Marisa}
+                alt="Marisa Martín Serrano"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
                 "Arquitectura y producto: La casa por los cimientos!",
-                "Partiendo de la ideación de un nuevo producto digital, iremos ladrillo sobre ladrillo tomando las decisiones técnicas y de producto para que sea exitoso, robusto y soporte el paso del tiempo.",
+                "Partiendo de la ideación de un nuevo producto digital,iremos ladrillo sobre ladrillo tomando las decisiones técnicas y de producto para que sea exitoso, robusto y soporte el paso del tiempo.",
                 "TRACK MUDÉJAR",
               )
             }
@@ -241,6 +309,14 @@ const Schedule: React.FC = () => {
               Arquitectura y producto: La casa por los cimientos!
             </h3>
             <p className={styles.scheduleAuthor}>Mario Espejo Quesada</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={MarioEspejo}
+                alt="Mario Espejo Quesada"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -284,6 +360,14 @@ const Schedule: React.FC = () => {
               Pesadilla en la cocina. Comunicación basada en eventos.
             </h3>
             <p className={styles.scheduleAuthor}>Moisés Rodríguez Jurado</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={MoisesRodriguez}
+                alt="Moisés Rodríguez Jurado"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -359,6 +443,23 @@ const Schedule: React.FC = () => {
             <span className={styles.close} onClick={closeModal}>
               &times;
             </span>
+            {selectedEvent.ponenteImage && (
+              <div
+                style={{
+                  position: "relative",
+                  width: 100,
+                  height: 100,
+                  margin: "0 auto 1rem",
+                }}
+              >
+                <Image
+                  src={selectedEvent.ponenteImage}
+                  alt={selectedEvent.author}
+                  fill
+                  style={{ objectFit: "cover", borderRadius: "50%" }}
+                />
+              </div>
+            )}
             {selectedEvent.track && (
               <p className={styles.modalTrack}>{selectedEvent.track}</p>
             )}
