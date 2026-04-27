@@ -298,15 +298,15 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Arquitectura y producto: La casa por los cimientos!",
-                "Partiendo de la ideación de un nuevo producto digital,iremos ladrillo sobre ladrillo tomando las decisiones técnicas y de producto para que sea exitoso, robusto y soporte el paso del tiempo.",
+                "El peligro de estar expuesto en internet - Shodan edition",
+                "Muestro la importancia de tener un dispositivo seguro con ejemplos reales y prácticos sobre como los cibercriminales pueden encontrarte muy fácilmente y vulnerar tu sistema. Mezclando presentación con práctica en directo.",
                 "TRACK MUDÉJAR",
               )
             }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>
-              Arquitectura y producto: La casa por los cimientos!
+              El peligro de estar expuesto en internet - Shodan edition
             </h3>
             <p className={styles.scheduleAuthor}>Mario Espejo Quesada</p>
             <div className={styles.trackPhoto}>
