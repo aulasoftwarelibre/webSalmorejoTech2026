@@ -16,7 +16,6 @@ import RafaelEgea from "../../assets/ponentes/Rafael Egea.webp";
 import Rukaya from "../../assets/ponentes/Rukaya.webp";
 import irenemm from "../../assets/ponentes/irenemm.webp";
 import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
-// 1. IMPORTAMOS LA FOTO DE PEDRO (Ajusta la ruta si es necesario)
 import PedroLopez from "../../assets/ponentes/Pedro.webp";
 import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
 
@@ -29,7 +28,6 @@ const ponentes: Record<string, any> = {
   "Moisés Rodríguez Jurado": MoisesRodriguez,
   "Alberto Jesus Gutierrez Juanes": AlbertoJesus,
   "Rafael Egea": RafaelEgea,
-  // 2. AÑADIMOS A PEDRO AL MAPA (Para que salga en el Modal)
   "Pedro Lopez Estepa": PedroLopez,
 };
 
@@ -154,7 +152,6 @@ const Schedule: React.FC = () => {
               RISC-V: del estándar abierto a la interoperabilidad real
             </h3>
             <p className={styles.scheduleAuthor}>Pedro Lopez Estepa</p>
-            {/* 3. AÑADIMOS EL CONTENEDOR DE LA FOTO EN LA TARJETA */}
             <div className={styles.trackPhoto}>
               <Image
                 src={PedroLopez}
@@ -190,8 +187,6 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Alberto Jesus Gutierrez Juanes
             </p>
-<<<<<<< Updated upstream
-=======
             <div className={styles.trackPhoto}>
               <Image
                 src={AlbertoJesus}
@@ -200,7 +195,6 @@ const Schedule: React.FC = () => {
                 className={styles.scheduleAuthorImage}
               />
             </div>
->>>>>>> Stashed changes
           </div>
           <div
             className={styles.trackEvent}
