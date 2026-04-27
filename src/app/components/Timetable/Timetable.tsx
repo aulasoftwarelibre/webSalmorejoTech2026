@@ -175,14 +175,6 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Alberto Jesus Gutierrez Juanes
             </p>
-            <div className={styles.trackPhoto}>
-              <Image
-                src={Rukaya}
-                alt="Alberto Jesus Gutierrez Juanes"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
-              />
-            </div>
           </div>
           <div
             className={styles.trackEvent}
