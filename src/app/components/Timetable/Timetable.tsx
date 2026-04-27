@@ -16,6 +16,9 @@ import RafaelEgea from "../../assets/ponentes/Rafael Egea.webp";
 import Rukaya from "../../assets/ponentes/Rukaya.webp";
 import irenemm from "../../assets/ponentes/irenemm.webp";
 import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
+// 1. IMPORTAMOS LA FOTO DE PEDRO (Ajusta la ruta si es necesario)
+import PedroLopez from "../../assets/ponentes/Pedro.webp";
+import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
 
 const ponentes: Record<string, any> = {
   "Arantxa Delgado Ruiz": ArantxaDR,
@@ -24,7 +27,10 @@ const ponentes: Record<string, any> = {
   "Mario Espejo Quesada": MarioEspejo,
   "Marisa Martín Serrano": Marisa,
   "Moisés Rodríguez Jurado": MoisesRodriguez,
-  "Alberto Jesus Gutierrez Juanes": Rukaya,
+  "Alberto Jesus Gutierrez Juanes": AlbertoJesus,
+  "Rafael Egea": RafaelEgea,
+  // 2. AÑADIMOS A PEDRO AL MAPA (Para que salga en el Modal)
+  "Pedro Lopez Estepa": PedroLopez,
 };
 
 const Schedule: React.FC = () => {
@@ -148,6 +154,15 @@ const Schedule: React.FC = () => {
               RISC-V: del estándar abierto a la interoperabilidad real
             </h3>
             <p className={styles.scheduleAuthor}>Pedro Lopez Estepa</p>
+            {/* 3. AÑADIMOS EL CONTENEDOR DE LA FOTO EN LA TARJETA */}
+            <div className={styles.trackPhoto}>
+              <Image
+                src={PedroLopez}
+                alt="Pedro Lopez Estepa"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -175,6 +190,17 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Alberto Jesus Gutierrez Juanes
             </p>
+<<<<<<< Updated upstream
+=======
+            <div className={styles.trackPhoto}>
+              <Image
+                src={AlbertoJesus}
+                alt="Alberto Jesus"
+                fill
+                className={styles.scheduleAuthorImage}
+              />
+            </div>
+>>>>>>> Stashed changes
           </div>
           <div
             className={styles.trackEvent}
@@ -236,15 +262,26 @@ const Schedule: React.FC = () => {
             <p className={styles.scheduleAuthor}>
               Joaquin Mateos Barroso y Rafael Egea Jurado
             </p>
-            <div className={styles.trackPhoto}>
-              <Image
-                src={JoaquinMateos}
-                alt="Joaquín Mateos"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
-              />
+            <div className={styles.trackPhotos}>
+              <div className={styles.trackPhoto}>
+                <Image
+                  src={JoaquinMateos}
+                  alt="Joaquín Mateos"
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
+              <div className={styles.trackPhoto}>
+                <Image
+                  src={RafaelEgea}
+                  alt="Rafael Egea"
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
             </div>
           </div>
+
           <div
             className={styles.trackEvent}
             onClick={() => handleEventClick("TBA", "", "TRACK MUDÉJAR")}
@@ -266,7 +303,7 @@ const Schedule: React.FC = () => {
             className={styles.trackEvent}
             onClick={() =>
               handleEventClick(
-                "Arquitectura y producto: La casa por los cimientos! ",
+                "Arquitectura y producto: La casa por los cimientos!",
                 "Partiendo de la ideación de un nuevo producto digital, iremos ladrillo sobre ladrillo tomando las decisiones técnicas y de producto para que sea exitoso, robusto y soporte el paso del tiempo.",
                 "TRACK OMEYA",
               )
@@ -412,7 +449,7 @@ const Schedule: React.FC = () => {
           <p className={styles.timeText}>18:05</p>
         </div>
         <div className={styles.fullWidthEvent}>
-          <h3 className={styles.scheduleTitleTimetable}>ACTO DE Despedida</h3>
+          <h3 className={styles.scheduleTitleTimetable}>ACTO DE DESPEDIDA</h3>
         </div>
       </div>
 
