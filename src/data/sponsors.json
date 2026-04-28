@@ -136,6 +136,18 @@
     "type": "CHERRY",
     "imageUrl": "/2026/sponsors/CordobaTechPark.svg",
     "href": "https://ptcordoba.es/"
+  },
+  {
+    "name": "SUSE",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/suse.webp",
+    "href": "https://www.opensuse.org/"
+  },
+  {
+    "name": "Consejo Social",
+    "type": "PERA",
+    "imageUrl": "/2026/sponsors/consejo-social.webp",
+    "href": "https://www.uco.es/servicios/actualidad/acuerdos/itemlist/category/11-consejo_social"
   }
 ]
 

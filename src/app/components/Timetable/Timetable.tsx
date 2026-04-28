@@ -403,11 +403,19 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
+            onClick={() => handleEventClick("El año de [empaquetar tu app para] Linux en el escritorio", "En los últimos años hemos visto un enorme progreso en torno a las herramientas para empaquetar bibliotecas Python. Empaquetar aplicaciones, por otro lado, suele requerir más trabajo. Gracias a algunos desarrollos recientes, es más fácil que nunca. ¿Alguna vez quisiste que tu software se pudiese instalar en Linux? En esta charla contaremos cómo.", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}></p>
+            <h3 className={styles.scheduleTitle}>El año de [empaquetar tu app para] Linux en el escritorio</h3>
+            <p className={styles.scheduleAuthor}>Juan Luis Cano Rodríguez</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={Juanlu}
+                alt="Juan Luis Cano Rodríguez"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
