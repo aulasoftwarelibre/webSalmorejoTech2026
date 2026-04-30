@@ -10,24 +10,21 @@
     "type": "PERA",
     "imageUrl": "/2026/sponsors/uco.svg",
     "href": "http://www.uco.es/",
-    "isSquare":true
-
+    "isSquare": true
   },
   {
     "name": "Escuela Politécnica Superior de Cordoba",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/epsc.svg",
     "href": "https://www.uco.es/eps/es/",
-    "isSquare":true
-
+    "isSquare": true
   },
   {
     "name": "Uco Cultura",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/logo-ucocultura.svg",
     "href": "https://www.uco.es/cultura/",
-    "isSquare":true
-
+    "isSquare": true
   },
   {
     "name": "Ayuntamiento de Cordoba",
@@ -65,15 +62,14 @@
     "type": "PERA",
     "imageUrl": "/2026/sponsors/atmira.webp",
     "href": "https://www.atmira.com/",
-    "isSquare":true
-
+    "isSquare": true
   },
   {
     "name": "Catedra Eprinsa",
     "type": "PERA",
     "imageUrl": "/2026/sponsors/catedra-eprinsa.svg",
     "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/",
-    "isSquare":true
+    "isSquare": true
   },
   {
     "name": "Genially",
@@ -104,7 +100,7 @@
     "type": "PERA",
     "imageUrl": "/2026/sponsors/LogoCatedraPlenitas.webp",
     "href": "https://www.plenitas.com/",
-    "isSquare":true
+    "isSquare": true
   },
   {
     "name": "Apipana",
@@ -129,7 +125,7 @@
     "type": "CHERRY",
     "imageUrl": "/2026/sponsors/FuzeTea.svg",
     "href": "https://www.coca-cola.com/es/es/brands/fuze-tea",
-    "isSquare":true
+    "isSquare": true
   },
   {
     "name": "CORDOBA TECH PARK",
@@ -140,7 +136,7 @@
   {
     "name": "SUSE",
     "type": "PERA",
-    "imageUrl": "/2026/sponsors/suse.webp",
+    "imageUrl": "/2026/sponsors/SUSE.svg",
     "href": "https://www.opensuse.org/"
   },
   {
@@ -150,4 +146,3 @@
     "href": "https://www.uco.es/servicios/actualidad/acuerdos/itemlist/category/11-consejo_social"
   }
 ]
-
