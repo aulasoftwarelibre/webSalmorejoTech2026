@@ -288,11 +288,19 @@ const Schedule: React.FC = () => {
 
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("TBA", "", "TRACK MUDÉJAR")}
+            onClick={() => handleEventClick("¿Qué hay después de la universidad?", "¿Has oído hablar de la \“habituación\”? Es un fenómeno de psicología social que trata de explicar por qué nos acostumbramos a las cosas buenas en nuestro entorno profesional y dejamos de valorarlas... pero también cómo se relaciona con la impotencia aprendida y las microagresiones en el trabajo. Aprenderemos a identificar estas señales y a autoevaluar nuestra situación actual... para seguir disfrutando de nuestro entorno , pero también evitar ambientes tóxicos.", "TRACK MUDÉJAR")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}></p>
+            <h3 className={styles.scheduleTitle}>¿Qué hay después de la universidad?</h3>
+            <p className={styles.scheduleAuthor}>Irene M Morgado</p>
+            <div className={styles.trackPhoto}>
+                <Image
+                  src={irenemm}
+                  alt="Irene M Morgado"
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
           </div>
         </div>
       </div>
