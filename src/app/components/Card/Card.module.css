@@ -110,6 +110,7 @@
     color: #573e3e;
     font-family: var(--font-oswald);
     font-size: 125%;
+    white-space: pre-line;
 }
 
 .iconsContainer {
@@ -154,6 +155,7 @@
     color: white;
     font-family: var(--font-oswald);
     font-size: 150%;
+    white-space: pre-line;
 }
 
 @media (max-width: 1280px) {

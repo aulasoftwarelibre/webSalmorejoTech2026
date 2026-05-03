@@ -59,8 +59,8 @@ const Gestion: CardInfo[] = [
   },
   {
     name: "Antonio Cañete López",
-    description: "Soy cañete jeje",
-    backDescription: "Soy cañete otra vez jaja",
+    description: "Estudiante ingeniería informática\nComputadores enjoyer",
+    backDescription: "Antoniocl53#EUW \nELYOYA enjoyer",
     photo: "/PeoplePhotos/front/cañetefront.webp",
     backphoto: "/PeoplePhotos/back/cañeteback.webp",
     lklink:
