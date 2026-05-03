@@ -18,6 +18,8 @@ import irenemm from "../../assets/ponentes/irenemm.webp";
 import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
 import PedroLopez from "../../assets/ponentes/Pedro.webp";
 import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
+import Miguel from "../../assets/ponentes/MiguelPerez.webp"
+
 
 const ponentes: Record<string, any> = {
   "Arantxa Delgado Ruiz": ArantxaDR,
@@ -82,11 +84,19 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
+            onClick={() => handleEventClick("SUSE Linux: Tu proximo linux","En SUSE hacemos Linux con los mejores ingredientes, como el Salmorejo Cordobés. En esta charla os contaré como preparamos SUSE Linux Enterprise Server 16 pero tambien openSUSE LEAP y Tumbleweed y por qué son \"Tu próximo Linux\".", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}></p>
+            <h3 className={styles.scheduleTitle}>SUSE Linux: Tu proximo linux</h3>
+            <p className={styles.scheduleAuthor}>Miguel Pérez Colino</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={Miguel}
+                alt="Miguel Perez Colino"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
@@ -362,12 +372,31 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
+            onClick={() => handleEventClick("De extra a protagonista: Construye tu relevancia en la comunidad tech", "En un mundo tech lleno de eventos, personas y ruido, ¿cómo destacar y ganar visibilidad desde cero? En esta charla, te enseñaré cómo pasar de ser un “extra” a convertirte en un protagonista clave dentro de la comunidad tech", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}></p>
+            <h3 className={styles.scheduleTitle}>Dale "Salmorejo" a tu IA: Construye tu primer servidor MCP</h3>
+            <p className={styles.scheduleAuthor}>Natalia De Pablo y Rukaya Masmoudi</p>
+            <div className={styles.trackPhotos}>
+              <div className={styles.trackPhoto}>
+                <Image
+                  src={NataliaDePablo}
+                  alt="Natalia de Pablo"
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
+              <div className={styles.trackPhoto}>
+                <Image
+                  src={Rukaya}
+                  alt="Rukaya Masmoudi"
+                  fill
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
+              </div>
+            </div>
           </div>
+          
           <div
             className={styles.trackEvent}
             onClick={() =>
