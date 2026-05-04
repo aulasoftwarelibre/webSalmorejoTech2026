@@ -19,7 +19,7 @@ import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
 import PedroLopez from "../../assets/ponentes/Pedro.webp";
 import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
 import Miguel from "../../assets/ponentes/MiguelPerez.webp"
-
+import Irene from "../../assets/ponentes/IreneLopez.webp"
 
 const ponentes: Record<string, any> = {
   "Arantxa Delgado Ruiz": ArantxaDR,
@@ -461,6 +461,14 @@ const Schedule: React.FC = () => {
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>¿Qué hay después de la universidad?</h3>
             <p className={styles.scheduleAuthor}>Irene López Jiménez</p>
+            <div className={styles.trackPhoto}>
+              <Image
+                src={Irene}
+                alt="Irene López Jiménez"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
