@@ -383,7 +383,7 @@ const Schedule: React.FC = () => {
             onClick={() => handleEventClick("De extra a protagonista: Construye tu relevancia en la comunidad tech", "En un mundo tech lleno de eventos, personas y ruido, ¿cómo destacar y ganar visibilidad desde cero? En esta charla, te enseñaré cómo pasar de ser un “extra” a convertirte en un protagonista clave dentro de la comunidad tech", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>Dale "Salmorejo" a tu IA: Construye tu primer servidor MCP</h3>
+            <h3 className={styles.scheduleTitle}>De extra a protagonista: Construye tu relevancia en la comunidad tech</h3>
             <p className={styles.scheduleAuthor}>Natalia De Pablo y Rukaya Masmoudi</p>
             <div className={styles.trackPhotos}>
               <div className={styles.trackPhoto}>
