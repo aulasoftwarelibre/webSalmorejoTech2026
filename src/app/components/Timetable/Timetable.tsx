@@ -20,6 +20,7 @@ import PedroLopez from "../../assets/ponentes/Pedro.webp";
 import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
 import Miguel from "../../assets/ponentes/MiguelPerez.webp"
 import Irene from "../../assets/ponentes/IreneLopez.webp"
+import cristina from "../../assets/ponentes/cristina.webp"
 
 const ponentes: Record<string, any> = {
   "Arantxa Delgado Ruiz": ArantxaDR,
@@ -141,11 +142,19 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("TBA", "", "TRACK OMEYA")}
+            onClick={() => handleEventClick("Pequeños problemas", "Contextos offline-first, usuarios que no saben leer, y otros retos en creación de producto", "TRACK OMEYA")}
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>TBA</h3>
-            <p className={styles.scheduleAuthor}></p>
+            <h3 className={styles.scheduleTitle}>Pequeños problemas</h3>
+            <p className={styles.scheduleAuthor}>Cristina Santamarina</p>
+            <div className={`${styles.trackPhoto} ${styles.trackPhoto}`}>
+              <Image
+                src={cristina}
+                alt="Cristina Santamarina"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
           <div
             className={styles.trackEvent}
