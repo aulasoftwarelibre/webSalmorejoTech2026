@@ -47,14 +47,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 30%;
     max-width: none;
     height: auto;
-    margin-top: 35px !important;
-    margin: auto;
     cursor: pointer;
     color: white;
-    font-size: 1.8rem; /* O puedes usar clamp(1.5rem, 5vw, 2.5rem) */
     padding: 10px 0;
 
     background: rgba(255, 255, 255, 0.2);
@@ -68,11 +66,8 @@
         inset 0 -1px 0 0 rgba(0, 0, 0, 0.01);
     font-family: "Oswald", sans-serif;
 
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); /* Tu transición suave original */
-
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     font-size: clamp(1.2rem, 3vw, 2.5rem);
-
-    margin-bottom: 1vh;
 }
 
 .miboton:hover {
@@ -92,12 +87,8 @@
     width: 18%;
     max-width: none;
     height: auto;
-    margin-top: 15px !important;
-    margin-bottom: 45px !important;
-    margin: auto;
     cursor: pointer;
     color: white;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
     padding: 10px 0;
 
     background: rgba(255, 255, 255, 0.2);
@@ -112,10 +103,7 @@
     font-family: "Oswald", sans-serif;
 
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-
     font-size: clamp(1rem, 2.2vw, 2rem);
-
-    margin-bottom: 1vh;
 }
 
 .notifybutton:hover {
@@ -135,6 +123,17 @@
     margin-top: 12%;
 }
 
+
+.butonsContainer {
+    display: flex;
+    flex-direction: row; /* Uno al lado del otro por defecto */
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 35px auto;   /* Centrado y con margen superior */
+    padding: 0 0px;
+    gap: 7%;
+}
 @media (max-width: 1000px) {
     .text {
         font-size: clamp(1.25rem, 1vw, 2rem);
@@ -170,6 +169,12 @@
 
     .container {
         margin-top: 10%;
+    }
+
+    .butonsContainer {
+        flex-direction: column; /* Se apilan verticalmente */
+        align-items: center;    /* Los centra */
+        gap: 20px;
     }
 }
 
