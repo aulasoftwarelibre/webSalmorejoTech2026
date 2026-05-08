@@ -18,9 +18,9 @@ import irenemm from "../../assets/ponentes/irenemm.webp";
 import MoisesRodriguez from "../../assets/ponentes/moises_rodriguez.webp";
 import PedroLopez from "../../assets/ponentes/Pedro.webp";
 import AlbertoJesus from "../../assets/ponentes/albertoJesus.webp";
-import Miguel from "../../assets/ponentes/MiguelPerez.webp"
-import Irene from "../../assets/ponentes/IreneLopez.webp"
-import cristina from "../../assets/ponentes/cristina.webp"
+import Miguel from "../../assets/ponentes/MiguelPerez.webp";
+import Irene from "../../assets/ponentes/IreneLopez.webp";
+import cristina from "../../assets/ponentes/cristina.webp";
 
 const ponentes: Record<string, any> = {
   "Arantxa Delgado Ruiz": ArantxaDR,
@@ -85,10 +85,18 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("SUSE Linux: Tu proximo linux","En SUSE hacemos Linux con los mejores ingredientes, como el Salmorejo Cordobés. En esta charla os contaré como preparamos SUSE Linux Enterprise Server 16 pero tambien openSUSE LEAP y Tumbleweed y por qué son \"Tu próximo Linux\".", "TRACK OMEYA")}
+            onClick={() =>
+              handleEventClick(
+                "SUSE Linux: Tu proximo linux",
+                'En SUSE hacemos Linux con los mejores ingredientes, como el Salmorejo Cordobés. En esta charla os contaré como preparamos SUSE Linux Enterprise Server 16 pero tambien openSUSE LEAP y Tumbleweed y por qué son "Tu próximo Linux".',
+                "TRACK OMEYA",
+              )
+            }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>SUSE Linux: Tu proximo linux</h3>
+            <h3 className={styles.scheduleTitle}>
+              SUSE Linux: Tu proximo linux
+            </h3>
             <p className={styles.scheduleAuthor}>Miguel Pérez Colino</p>
             <div className={styles.trackPhoto}>
               <Image
@@ -127,22 +135,18 @@ const Schedule: React.FC = () => {
       <div className={styles.scheduleRow}>
         <div className={styles.timeBlock}>
           <p className={styles.timeText}>10:00</p>
-          <p className={styles.timeText}>10:30</p>
-        </div>
-        <div className={styles.fullWidthEvent}>
-          <h3 className={styles.scheduleTitleTimetable}>DESAYUNO</h3>
-        </div>
-      </div>
-
-      <div className={styles.scheduleRow}>
-        <div className={styles.timeBlock}>
-          <p className={styles.timeText}>10:35</p>
-          <p className={styles.timeText}>11:15</p>
+          <p className={styles.timeText}>10:40</p>
         </div>
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("Pequeños problemas", "Contextos offline-first, usuarios que no saben leer, y otros retos en creación de producto", "TRACK OMEYA")}
+            onClick={() =>
+              handleEventClick(
+                "Pequeños problemas",
+                "Contextos offline-first, usuarios que no saben leer, y otros retos en creación de producto",
+                "TRACK OMEYA",
+              )
+            }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
             <h3 className={styles.scheduleTitle}>Pequeños problemas</h3>
@@ -180,6 +184,16 @@ const Schedule: React.FC = () => {
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.scheduleRow}>
+        <div className={styles.timeBlock}>
+          <p className={styles.timeText}>10:45</p>
+          <p className={styles.timeText}>11:15</p>
+        </div>
+        <div className={styles.fullWidthEvent}>
+          <h3 className={styles.scheduleTitleTimetable}>DESAYUNO</h3>
         </div>
       </div>
 
@@ -297,19 +311,25 @@ const Schedule: React.FC = () => {
 
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("Fatal Gracias", "¿Has oído hablar de la \“habituación\”? Es un fenómeno de psicología social que trata de explicar por qué nos acostumbramos a las cosas buenas en nuestro entorno profesional y dejamos de valorarlas... pero también cómo se relaciona con la impotencia aprendida y las microagresiones en el trabajo. Aprenderemos a identificar estas señales y a autoevaluar nuestra situación actual... para seguir disfrutando de nuestro entorno , pero también evitar ambientes tóxicos.", "TRACK MUDÉJAR")}
+            onClick={() =>
+              handleEventClick(
+                "Fatal Gracias",
+                "¿Has oído hablar de la \“habituación\”? Es un fenómeno de psicología social que trata de explicar por qué nos acostumbramos a las cosas buenas en nuestro entorno profesional y dejamos de valorarlas... pero también cómo se relaciona con la impotencia aprendida y las microagresiones en el trabajo. Aprenderemos a identificar estas señales y a autoevaluar nuestra situación actual... para seguir disfrutando de nuestro entorno , pero también evitar ambientes tóxicos.",
+                "TRACK MUDÉJAR",
+              )
+            }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
             <h3 className={styles.scheduleTitle}>Fatal Gracias</h3>
             <p className={styles.scheduleAuthor}>Irene M Morgado</p>
             <div className={styles.trackPhoto}>
-                <Image
-                  src={irenemm}
-                  alt="Irene M Morgado"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center top" }}
-                />
-              </div>
+              <Image
+                src={irenemm}
+                alt="Irene M Morgado"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -389,11 +409,22 @@ const Schedule: React.FC = () => {
         <div className={styles.tracksContainer}>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("De extra a protagonista: Construye tu relevancia en la comunidad tech", "En un mundo tech lleno de eventos, personas y ruido, ¿cómo destacar y ganar visibilidad desde cero? En esta charla, te enseñaré cómo pasar de ser un “extra” a convertirte en un protagonista clave dentro de la comunidad tech", "TRACK OMEYA")}
+            onClick={() =>
+              handleEventClick(
+                "De extra a protagonista: Construye tu relevancia en la comunidad tech",
+                "En un mundo tech lleno de eventos, personas y ruido, ¿cómo destacar y ganar visibilidad desde cero? En esta charla, te enseñaré cómo pasar de ser un “extra” a convertirte en un protagonista clave dentro de la comunidad tech",
+                "TRACK OMEYA",
+              )
+            }
           >
             <h5 className={styles.scheduleAuthor}>TRACK OMEYA</h5>
-            <h3 className={styles.scheduleTitle}>De extra a protagonista: Construye tu relevancia en la comunidad tech</h3>
-            <p className={styles.scheduleAuthor}>Natalia De Pablo y Rukaya Masmoudi</p>
+            <h3 className={styles.scheduleTitle}>
+              De extra a protagonista: Construye tu relevancia en la comunidad
+              tech
+            </h3>
+            <p className={styles.scheduleAuthor}>
+              Natalia De Pablo y Rukaya Masmoudi
+            </p>
             <div className={styles.trackPhotos}>
               <div className={styles.trackPhoto}>
                 <Image
@@ -413,7 +444,7 @@ const Schedule: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div
             className={styles.trackEvent}
             onClick={() =>
@@ -473,10 +504,18 @@ const Schedule: React.FC = () => {
           </div>
           <div
             className={styles.trackEvent}
-            onClick={() => handleEventClick("¿Qué hay después de la universidad?", "En esta ponencia compartiré mi experiencia trabajando en una consultora IT, explicando cómo es el salto de la universidad al mundo laboral, las diferencias entre lo que se espera y la realidad del día a día en una empresa tecnológica, y los principales aprendizajes al empezar a trabajar en el sector.", "TRACK MUDÉJAR")}
+            onClick={() =>
+              handleEventClick(
+                "¿Qué hay después de la universidad?",
+                "En esta ponencia compartiré mi experiencia trabajando en una consultora IT, explicando cómo es el salto de la universidad al mundo laboral, las diferencias entre lo que se espera y la realidad del día a día en una empresa tecnológica, y los principales aprendizajes al empezar a trabajar en el sector.",
+                "TRACK MUDÉJAR",
+              )
+            }
           >
             <h5 className={styles.scheduleAuthor}>TRACK MUDÉJAR</h5>
-            <h3 className={styles.scheduleTitle}>¿Qué hay después de la universidad?</h3>
+            <h3 className={styles.scheduleTitle}>
+              ¿Qué hay después de la universidad?
+            </h3>
             <p className={styles.scheduleAuthor}>Irene López Jiménez</p>
             <div className={styles.trackPhoto}>
               <Image
